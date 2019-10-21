@@ -17,6 +17,10 @@ header {
    background-image: url(../images/headerBackground.jpg);
 }
 
+.mobile-nav {
+   width: 135px;
+}
+
 /* the 'bullet-shot' facebook image from https://pt.vectorhq.com/psd/cracked-facebook-logo-psd-451808 */
 body > a > img {
    right: 0px;
