@@ -761,7 +761,7 @@ span {
    }
 
    /* The first section in main holds the flipping (animated) images */
-   body > main > section:nth-of-type(1) {
+   .image-animation {
       height: 35vw;
    }
 }
