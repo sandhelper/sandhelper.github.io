@@ -1,20 +1,3 @@
-/* eslint-disable new-cap */
-/* eslint-disable quotes */
-import "./../lib/styles/style.css";
-import "./../lib/styles/styleGMaps.css";
-import "../lib/scripts/headerStyling.js";
-import "../lib/scripts/footerStyling.js";
-import { rentalAgents } from "../lib/scripts/rentalAgents.js";
-import { rentalAgentsKeyedByBeach } from "../lib/scripts/rentalAgents.js";
-import { mapStyle1 } from "../lib/scripts/mapStyle1.js";
-import { mapStyle2 } from "../lib/scripts/mapStyle2";
-import { mapStyle3 } from "../lib/scripts/mapStyle3";
-import { theIWArray } from "../lib/scripts/rentalAgents.js";
-import { theBeachesKeyedByState } from "../lib/scripts/rentalAgents.js";
-import style3Map from "./../lib/images/style3Map.png";
-import style2Map from "./../lib/images/style2Map.png";
-import style1Map from "./../lib/images/style1Map.png";
-
 // console.log(`${Object.keys(theBeachesKeyedByState)[1]}: ${JSON.stringify(theBeachesKeyedByState[Object.keys(theBeachesKeyedByState)[1]])}`);
 
 let map;
@@ -31,9 +14,9 @@ const EAST_COAST_BOUNDS = {
 };
 
 /* the images that show up in the bottom left of google maps that let you choose a map style */
-document.querySelector("#style1").src = style1Map;
-document.querySelector("#style2").src = style2Map;
-document.querySelector("#style3").src = style3Map;
+document.querySelector("#style1").src = "./lib/images/style1Map.png";
+document.querySelector("#style2").src = "./lib/images/style2Map.png";
+document.querySelector("#style3").src = "./lib/images/style3Map.png";
 
 function CenterControl(controlDiv, map, cityName, latlng, zLevel) {
    const controlUI = document.createElement("div");
