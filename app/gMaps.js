@@ -123,7 +123,7 @@ function initMap() {
    });
 
    // This is the image that will be used for the google map markers, scaled appropriately
-   const url = `./longMascotIcon.png`;
+   const url = `./lib/images/longMascotIcon.png`;
    const image = {
       url: url,
       scaledSize: new google.maps.Size(38, 38),
