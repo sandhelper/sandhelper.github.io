@@ -331,6 +331,21 @@ body > main > section:nth-of-type(2) {
 }
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* shared accordion styling                                           */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.accordion {
+   list-style-type: none;
+   position: relative;
+   padding: 0px 3em;
+}
+
+@media only screen and (max-width: 960px) {
+   .accordion {
+      padding: 0px 1em;
+   }
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /* style footer section                                               */
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 body > footer {
