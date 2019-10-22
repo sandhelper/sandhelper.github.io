@@ -150,6 +150,10 @@ body > header > section:nth-child(1) > nav {
    float: right;
 }
 
+.desktop-nav {
+   font-weight: 600;
+}
+
 /* navigation element styling -- put the nav elements in a horizontal line */
 body > header > section:nth-child(1) > nav > ul:nth-child(1) {
    margin-top: 0px;
