@@ -100,6 +100,7 @@ q_and_A.forEach(qa => {
    const spanMinus = document.createElement("span");
    plusMinusButton.appendChild(spanPlus);
    plusMinusButton.appendChild(spanMinus);
+   plusMinusButton.className = "accordion-toggle-btn";
    spanPlus.classList.add("plus");
    spanMinus.classList.add("minus");
    const iFramePlus = document.createElement("i");
@@ -144,11 +145,11 @@ function morphTheButton(e) {
    if (theAnswer.style.opacity == 0) {
       theAnswer.style.maxHeight = "500px";
       theAnswer.style.opacity = 1;
-      this.className += "active";
+      this.className = "accordion-toggle-btn active";
    } else {
       theAnswer.style.maxHeight = 0;
       theAnswer.style.opacity = 0;
-      this.removeAttribute("class");
+      this.className = "accordion-toggle-btn";
    }
 }
 
@@ -161,11 +162,11 @@ function toggleAccordionContent(e) {
    if (theAnswer.style.opacity == 0) {
       theAnswer.style.maxHeight = "500px";
       theAnswer.style.opacity = 1;
-      theButton.className += "active";
+      theButton.className = "accordion-toggle-btn active";
    } else {
       theAnswer.style.maxHeight = 0;
       theAnswer.style.opacity = 0;
-      theButton.removeAttribute("class");
+      theButton.className = "accordion-toggle-btn";
    }
 }
 
