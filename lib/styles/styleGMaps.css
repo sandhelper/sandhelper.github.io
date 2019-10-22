@@ -224,7 +224,7 @@ body > main > section:nth-of-type(3) > div > ul {
 /* the list items holding the state <divs/> */
 body > main > section:nth-of-type(3) > div > ul > li {
    float: left;
-   width: 95%;
+   width: 100%;
    text-align: left;
 }
 
@@ -240,6 +240,12 @@ body > main > section:nth-of-type(3) > div > ul > li > h4 {
    font-size: 20px;
    margin-block-start: 0.1em;
    margin-block-end: 0.1em;
+}
+
+.accordion {
+   list-style-type: none;
+   position: relative;
+   padding: 0px 0em;
 }
 
 .inner-accordion {
@@ -514,7 +520,7 @@ body
       padding-left: 0px;
    }
    body > main > section:nth-of-type(3) > div > ul > li {
-      width: 95%;
+      width: 100%;
    }
 }
 
