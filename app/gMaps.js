@@ -1,5 +1,3 @@
-// console.log(`${Object.keys(theBeachesKeyedByState)[1]}: ${JSON.stringify(theBeachesKeyedByState[Object.keys(theBeachesKeyedByState)[1]])}`);
-
 let map;
 const vabeach = { lat: 36.5, lng: -75.9 };
 const ocmd = { lat: 38.5, lng: -75.04 };

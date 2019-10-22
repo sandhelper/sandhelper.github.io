@@ -1,12 +1,3 @@
-/* eslint-disable quotes */
-// import "./../lib/styles/style.css";
-// import "./../lib/styles/styleFaq.css";
-
-// import "../lib/scripts/googleAnalytics.js";
-// import "../lib/scripts/fbpixelcode.js";
-// import "../lib/scripts/headerStyling.js";
-// import "../lib/scripts/footerStyling.js";
-
 const q_and_A = [{
       question: `Where do I store the scooter during my multi-day rental period?`,
       answer: `In the lobby, right outside of the lobby, or somewhere in the parking lot.
