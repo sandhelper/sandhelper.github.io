@@ -239,10 +239,13 @@ theStates.forEach(s => {
          theRentalAgentsList.appendChild(theRentalAgentsListItemName);
 
          const theRentalAgentsListItemPhone = document.createElement("li"); // get the phone #
+         const thePhoneNumberLink = document.createElement("a");
+         thePhoneNumberLink.setAttribute("href", "tel:" + ra.phone);
+         thePhoneNumberLink.innerHTML = ra.phone;
+         theRentalAgentsListItemPhone.appendChild(thePhoneNumberLink);
          theRentalAgentsListItemPhone.classList.add("IWliPhone");
          theRentalAgentsListItemPhone.style.fontFamily =
             "Josefin Sans, monotype";
-         theRentalAgentsListItemPhone.innerHTML = ra.phone;
          theRentalAgentsList.appendChild(theRentalAgentsListItemPhone);
 
          const theRentalAgentsListItemEmail = document.createElement("li"); // get the email address
