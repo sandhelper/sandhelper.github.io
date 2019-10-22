@@ -9,19 +9,6 @@ body > main > section:nth-of-type(1) {
    height: auto;
 }
 
-/* General FAQs line */
-body > main > section:nth-of-type(1) > h3 {
-   display: block;
-   border-radius: 5px;
-   margin: 0px;
-   background-color: hsla(12, 95%, 47%, 0.93);
-   box-shadow: 0.1em 0.1em 0.3em #000;
-   font-size: 24px;
-   padding: 10px 50px 9px 20px;
-   text-decoration: none;
-   font-weight: normal;
-}
-
 /* centering the div that holds the questions <uls/> */
 body > main > section:nth-of-type(1) > div {
    margin-left: auto;
