@@ -53,6 +53,15 @@ body > section > ul {
    display: none;
 }
 
+.titlebar-container {
+   color: rgb(250, 245, 198);
+   width: 98%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+   height: auto;
+}
+
 h1.titlebar {
    display: block;
    border-radius: 5px;
@@ -72,7 +81,7 @@ h3 {
 }
 
 /* link styling */
-a {
+.desktop-nav a {
    text-decoration: none;
    font-size: 25px;
    color: #000;
@@ -80,12 +89,12 @@ a {
 }
 
 /* link styling */
-a:hover {
+.desktop-nav a:hover {
    color: #000;
 }
 
 /* link styling in header */
-body > header > section > nav > ul > li > a:before {
+.desktop-nav a:before {
    content: "";
    position: absolute;
    width: 100%;
@@ -107,10 +116,62 @@ body > header > section > nav > ul > li > a:before {
 }
 
 /* link styling */
+.desktop-nav a:hover:before {
+   visibility: visible;
+   -webkit-transform: scaleX(1);
+   transform: scaleX(1);
+}
+
+/* link styling */
+a {
+   text-decoration: none;
+   color: #333;
+   position: relative;
+}
+
 a:hover:before {
    visibility: visible;
    -webkit-transform: scaleX(1);
    transform: scaleX(1);
+}
+
+a:before {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #333;
+   visibility: hidden;
+
+   -webkit-transition: all 0.5s ease-in-out 0s;
+   -moz-transition: all 0.5s ease-in-out 0s;
+   -o-transition: all 0.5s ease-in-out 0s;
+   transition: all 0.5s ease-in-out 0s;
+
+   -webkit-transform: scaleX(0);
+   -moz-transform: scaleX(0);
+   -o-transform: scaleX(0);
+   transform: scaleX(0);
+}
+
+main > section.content {
+   margin: auto;
+   padding: 0.5em 1em;
+}
+
+.center-contents {
+   text-align: center
+}
+
+.p-t-m {
+   padding-top: 1em;
+}
+
+.m-y-s {
+   margin-top: 0.1em;
+   margin-bottom: 0.1em;
 }
 
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -298,21 +359,21 @@ main > div > section:nth-of-type(1) > figure > figcaption {
 }
 
 /* Animation flips through four images below */
-body > main > section:nth-of-type(1) > img:nth-child(4) {
+.image-animation > img:nth-child(4) {
    animation-delay: 0s;
 }
-body > main > section:nth-of-type(1) > img:nth-child(3) {
+.image-animation > img:nth-child(3) {
    animation-delay: 8s;
 }
-body > main > section:nth-of-type(1) > img:nth-child(2) {
+.image-animation > img:nth-child(2) {
    animation-delay: 16s;
 }
-body > main > section:nth-of-type(1) > img:nth-child(1) {
+.image-animation > img:nth-child(1) {
    animation-delay: 24s;
 }
 
 /* video section */
-body > main > section:nth-of-type(2) {
+.video {
    width: 80%;
    height: auto;
    overflow: hidden;
@@ -858,7 +919,7 @@ span {
       padding-top: 33px;
    }
 
-   body > main > section:nth-of-type(1) > img {
+   .image-animation > img {
       height: 32vw;
       width: auto;
       box-shadow: 0.1em 0.1em 0.3em #000;
@@ -890,7 +951,7 @@ span {
       margin: 8px;
    }
 
-   body > main > section:nth-of-type(1) > img {
+   .image-animation > img {
       margin-left: 7vw;
    }
 }
@@ -914,7 +975,7 @@ span {
       margin: 8px;
    }
 
-   body > main > section:nth-of-type(1) > img {
+   .image-animation > img {
       margin-left: 10vw;
    }
 }
