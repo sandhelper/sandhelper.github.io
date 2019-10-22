@@ -255,6 +255,13 @@ theStates.forEach(s => {
             "Josefin Sans, monotype";
          theRentalAgentsList.appendChild(theRentalAgentsListItemEmail);
 
+         const theRentalAgentsListItemNotes = document.createElement("li"); // grab the notes
+         theRentalAgentsListItemNotes.classList.add("IWliNotes");
+         theRentalAgentsListItemNotes.style.fontFamily =
+            "Josefin Sans, monotype";
+         theRentalAgentsListItemNotes.innerHTML = ra.notes;
+         theRentalAgentsList.appendChild(theRentalAgentsListItemNotes);
+
          const theRentalAgentsListItemURL = document.createElement("li"); // get the URL (make it a link that opens in a new tab)
          const theWebsiteLink = document.createElement("a");
          theWebsiteLink.setAttribute("href", ra.url);
@@ -266,13 +273,6 @@ theStates.forEach(s => {
          theRentalAgentsListItemURL.classList.add("IWliURL");
          theRentalAgentsListItemURL.style.fontFamily = "Josefin Sans, monotype";
          theRentalAgentsList.appendChild(theRentalAgentsListItemURL);
-
-         const theRentalAgentsListItemNotes = document.createElement("li"); // grab the notes
-         theRentalAgentsListItemNotes.classList.add("IWliNotes");
-         theRentalAgentsListItemNotes.style.fontFamily =
-            "Josefin Sans, monotype";
-         theRentalAgentsListItemNotes.innerHTML = ra.notes;
-         theRentalAgentsList.appendChild(theRentalAgentsListItemNotes);
       });
    });
 });
