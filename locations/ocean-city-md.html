@@ -12,6 +12,7 @@
     <link rel="icon" href="../lib/images/longMascotIcon.png" />
     <script src="../lib/scripts/headerStyling.js"></script>
     <script src="../lib/scripts/googleAnalytics.js"></script>
+    <script type="text/javascript" src="http://ocwheelchairs.checkfront.com/lib/interface--0.js"></script>
 </head>
 
 <body>
@@ -125,6 +126,29 @@
                 </div>
             </section>
         </div>
+        <!-- Checkfront Widget -->
+        <section>
+            <script type="text/javascript" src="http://ocwheelchairs.checkfront.com/lib/interface--0.js"></script>
+            <!-- CHECKFRONT BOOKING PLUGIN v25-->
+            <div id="CHECKFRONT_WIDGET_01">
+                <p id="CHECKFRONT_LOADER"
+                    style="background: url('http://ocwheelchairs.checkfront.com/images/loader.gif') left center no-repeat; padding: 5px 5px 5px 20px">
+                    Searching Availability...</p>
+            </div>
+            <script>
+                new DROPLET.Widget({
+                    host: 'ocwheelchairs.checkfront.com',
+                    target: 'CHECKFRONT_WIDGET_01',
+                    item_id: '5,31,3,2,1,20,19,10,12,9,8,7,23,22,18',
+                    category_id: '1,2,4',
+                    options: 'category_select',
+                    provider: 'droplet'
+
+                }).render();
+            </script>
+            <noscript><a href="https://ocwheelchairs.checkfront.com/reserve/" style="font-size: 16px">Continue to Secure Booking
+                    System &raquo;</a></noscript>
+        </section>
     </main>
 
     <footer>
