@@ -269,8 +269,8 @@ theStates.forEach(s => {
          const theWebsiteLink = document.createElement("a");
          theWebsiteLink.setAttribute("href", ra.url);
          theWebsiteLink.setAttribute("target", "_blank");
-         theWebsiteLink.innerHTML =
-            "Click/tap this link for info, pricing and reservations";
+         theWebsiteLink.style.textDecoration = "underline";
+         theWebsiteLink.innerHTML = "Info, Pricing, and Reservations";
 
          theRentalAgentsListItemURL.appendChild(theWebsiteLink);
          theRentalAgentsListItemURL.classList.add("IWliURL");
