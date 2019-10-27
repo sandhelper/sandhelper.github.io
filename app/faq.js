@@ -134,17 +134,7 @@ function morphTheButton(e) {
    const theAnswer = this.parentElement.querySelector(
       ".accordion-container .accordion-content"
    ); // as seen from the plusMinus <button>
-   if (theAnswer.style.opacity == 0) {
-      theAnswer.style.maxHeight = "500px";
-      theAnswer.style.opacity = 1;
-      theAnswer.style.removeProperty("pointer-events");
-      this.className = "accordion-toggle-btn active";
-   } else {
-      theAnswer.style.maxHeight = 0;
-      theAnswer.style.opacity = 0;
-      theAnswer.style.pointerEvents = "none";
-      this.className = "accordion-toggle-btn";
-   }
+   updateAccordionContentStyles(theAnswer, this);
 }
 
 /* this function toggles the answer (accordian-content) to the FAQ question   */
@@ -152,17 +142,20 @@ function morphTheButton(e) {
 function toggleAccordionContent(e) {
    const theAnswer = this.parentElement.querySelector(".accordion-content"); // as seen from the question <a> tag
    const theButton = this.parentElement.parentElement.querySelector("button"); // as seen from the question <a> tag
+   updateAccordionContentStyles(theAnswer, theButton);
+}
 
-   if (theAnswer.style.opacity == 0) {
-      theAnswer.style.maxHeight = "500px";
-      theAnswer.style.opacity = 1;
-      theAnswer.style.removeProperty("pointer-events");
-      theButton.className = "accordion-toggle-btn active";
+function updateAccordionContentStyles(contentEl, buttonEl) {
+   if (contentEl.style.opacity == 0) {
+      contentEl.style.maxHeight = "500px";
+      contentEl.style.opacity = 1;
+      contentEl.style.removeProperty("pointer-events");
+      buttonEl.className = "accordion-toggle-btn active";
    } else {
-      theAnswer.style.maxHeight = 0;
-      theAnswer.style.opacity = 0;
-      theAnswer.style.pointerEvents = "none";
-      theButton.className = "accordion-toggle-btn";
+      contentEl.style.maxHeight = 0;
+      contentEl.style.opacity = 0;
+      contentEl.style.pointerEvents = "none";
+      buttonEl.className = "accordion-toggle-btn";
    }
 }
 

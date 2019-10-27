@@ -294,17 +294,7 @@ function morphTheButton() {
    const beachRentalInfo = this.parentElement.querySelector(
       ".accordion-container .accordion-content"
    ); // as seen from the plusMinus <button>
-   if (beachRentalInfo.style.opacity == 0) {
-      beachRentalInfo.style.maxHeight = "500px";
-      beachRentalInfo.style.opacity = 1;
-      beachRentalInfo.style.removeProperty("pointer-events");
-      this.className = "accordion-toggle-btn active";
-   } else {
-      beachRentalInfo.style.maxHeight = 0;
-      beachRentalInfo.style.opacity = 0;
-      beachRentalInfo.style.pointerEvents = "none";
-      this.className = "accordion-toggle-btn";
-   }
+   updateAccordionContentStyles(beachRentalInfo, this);
 }
 
 /* this function toggles the beach rental info                   */
@@ -314,17 +304,20 @@ function toggleAccordionContent() {
       ".accordion-content"
    ); // as seen from the beach <a> tag
    const theButton = this.parentElement.parentElement.querySelector("button"); // as seen from the beach <a> tag
+   updateAccordionContentStyles(beachRentalInfo, theButton);
+}
 
-   if (beachRentalInfo.style.opacity == 0) {
-      beachRentalInfo.style.maxHeight = "500px";
-      beachRentalInfo.style.opacity = 1;
-      beachRentalInfo.style.removeProperty("pointer-events");
-      theButton.className = "accordion-toggle-btn active";
+function updateAccordionContentStyles(contentEl, buttonEl) {
+   if (contentEl.style.opacity == 0) {
+      contentEl.style.maxHeight = "500px";
+      contentEl.style.opacity = 1;
+      contentEl.style.removeProperty("pointer-events");
+      buttonEl.className = "accordion-toggle-btn active";
    } else {
-      beachRentalInfo.style.maxHeight = 0;
-      beachRentalInfo.style.opacity = 0;
-      beachRentalInfo.style.pointerEvents = "none";
-      theButton.className = "accordion-toggle-btn";
+      contentEl.style.maxHeight = 0;
+      contentEl.style.opacity = 0;
+      contentEl.style.pointerEvents = "none";
+      buttonEl.className = "accordion-toggle-btn";
    }
 }
 
