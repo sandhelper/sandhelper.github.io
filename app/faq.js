@@ -150,11 +150,13 @@ function updateAccordionContentStyles(contentEl, buttonEl) {
       contentEl.style.maxHeight = "500px";
       contentEl.style.opacity = 1;
       contentEl.style.removeProperty("pointer-events");
+      contentEl.style.paddingTop = "10px";
       buttonEl.className = "accordion-toggle-btn active";
    } else {
       contentEl.style.maxHeight = 0;
       contentEl.style.opacity = 0;
       contentEl.style.pointerEvents = "none";
+      contentEl.style.paddingTop = "0px";
       buttonEl.className = "accordion-toggle-btn";
    }
 }

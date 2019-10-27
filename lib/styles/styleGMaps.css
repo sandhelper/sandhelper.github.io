@@ -318,6 +318,7 @@ body
    display: visible;
    padding-right: 10px;
    transition: all 0.75s;
+   margin-left: -20px; /* Artificially centers the content inside the entire accordion width */
 }
 
 /* font size of state line  */
