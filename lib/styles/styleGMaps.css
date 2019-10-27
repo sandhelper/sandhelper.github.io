@@ -487,17 +487,20 @@ body
       width: 85%;
    }
 
-   .IWliPhone, .IWliEmail {
-      margin-top: 10px;
+   .IWliName:not(:first-child) {
+      margin-top: 20px;
+   }
+
+   .IWliPhone,
+   .IWliEmail,
+   .IWliURL,
+   .IWliNotes {
+      margin-top: 7.5px;
       margin-left: 0px;
    }
 
    #map .IWliURL > a {
       margin-left: 0px;
-   }
-
-   .IWliNotes {
-      margin: 10px 0px 0px 0px;
    }
 
    body > main {
