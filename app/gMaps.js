@@ -213,6 +213,7 @@ theStates.forEach(s => {
       divAccordionContent.classList.add("accordion-content");
       divAccordionContent.style.opacity = 0;
       divAccordionContent.style.maxHeight = 0;
+      divAccordionContent.style.pointerEvents = "none";
       innerAccordionListItem.appendChild(divInnerAccordion);
       divInnerAccordion.appendChild(divBeachline);
       divBeachline.appendChild(plusMinusButton);
@@ -296,10 +297,12 @@ function morphTheButton() {
    if (beachRentalInfo.style.opacity == 0) {
       beachRentalInfo.style.maxHeight = "500px";
       beachRentalInfo.style.opacity = 1;
+      beachRentalInfo.style.removeProperty("pointer-events");
       this.className = "accordion-toggle-btn active";
    } else {
       beachRentalInfo.style.maxHeight = 0;
       beachRentalInfo.style.opacity = 0;
+      beachRentalInfo.style.pointerEvents = "none";
       this.className = "accordion-toggle-btn";
    }
 }
@@ -315,10 +318,12 @@ function toggleAccordionContent() {
    if (beachRentalInfo.style.opacity == 0) {
       beachRentalInfo.style.maxHeight = "500px";
       beachRentalInfo.style.opacity = 1;
+      beachRentalInfo.style.removeProperty("pointer-events");
       theButton.className = "accordion-toggle-btn active";
    } else {
       beachRentalInfo.style.maxHeight = 0;
       beachRentalInfo.style.opacity = 0;
+      beachRentalInfo.style.pointerEvents = "none";
       theButton.className = "accordion-toggle-btn";
    }
 }

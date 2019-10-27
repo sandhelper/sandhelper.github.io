@@ -109,6 +109,7 @@ q_and_A.forEach(qa => {
    divAccordionContent.classList.add("accordion-content");
    divAccordionContent.style.opacity = 0;
    divAccordionContent.style.maxHeight = 0;
+   divAccordionContent.style.pointerEvents = "none";
    listItemInnerAccordion.appendChild(divInnerAccordion);
    divInnerAccordion.appendChild(divQuestionline);
    divQuestionline.appendChild(plusMinusButton);
@@ -136,10 +137,12 @@ function morphTheButton(e) {
    if (theAnswer.style.opacity == 0) {
       theAnswer.style.maxHeight = "500px";
       theAnswer.style.opacity = 1;
+      theAnswer.style.removeProperty("pointer-events");
       this.className = "accordion-toggle-btn active";
    } else {
       theAnswer.style.maxHeight = 0;
       theAnswer.style.opacity = 0;
+      theAnswer.style.pointerEvents = "none";
       this.className = "accordion-toggle-btn";
    }
 }
@@ -153,10 +156,12 @@ function toggleAccordionContent(e) {
    if (theAnswer.style.opacity == 0) {
       theAnswer.style.maxHeight = "500px";
       theAnswer.style.opacity = 1;
+      theAnswer.style.removeProperty("pointer-events");
       theButton.className = "accordion-toggle-btn active";
    } else {
       theAnswer.style.maxHeight = 0;
       theAnswer.style.opacity = 0;
+      theAnswer.style.pointerEvents = "none";
       theButton.className = "accordion-toggle-btn";
    }
 }
