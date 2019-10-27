@@ -487,12 +487,12 @@ body
       width: 85%;
    }
 
-   .IWliPhone {
+   .IWliPhone, .IWliEmail {
       margin-top: 10px;
       margin-left: 0px;
    }
 
-   .IWliEmail, #map .IWliURL > a {
+   #map .IWliURL > a {
       margin-left: 0px;
    }
 
