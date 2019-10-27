@@ -31,12 +31,20 @@ body > main > section:nth-of-type(2) {
 
 #map {
    height: 75vh;
-   width: 75vw;
+   width: 75%;
    border-radius: 10px;
    box-shadow: 0.3em 0.3em 1em #000;
    margin-right: auto;
    margin-left: auto;
    font-family: "Josefin Sans, Arial, sans-serif";
+}
+
+#map .gm-style-iw.gm-style-iw-c {
+   min-width: 200px;
+}
+
+#map .gm-style-iw-d {
+   max-width: 100% !important;
 }
 
 #map .dOuter {
@@ -457,47 +465,7 @@ body
       color: blue;
    }
 
-   #map
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > ul
-      > li:nth-of-type(4)
-      > a {
-      text-align: left;
-      padding: 1px;
-      margin-left: 12px;
-      font-size: 15px;
-      color: blue;
-   }
-
-   #map
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > div
-      > ul
-      > li:nth-of-type(9)
-      > a {
+   #map .IWliURL > a {
       text-align: left;
       padding: 1px;
       margin-left: 12px;
@@ -514,6 +482,23 @@ body
    }
 }
 @media only screen and (max-width: 490px) {
+   #map {
+      width: 85%;
+   }
+
+   .IWliPhone {
+      margin-top: 10px;
+      margin-left: 0px;
+   }
+
+   .IWliEmail, #map .IWliURL > a {
+      margin-left: 0px;
+   }
+
+   .IWliNotes {
+      margin: 10px 0px 0px 0px;
+   }
+
    body > main {
       padding-top: 43px;
    }
@@ -528,5 +513,11 @@ body
 @media only screen and (max-height: 500px) {
    body > main {
       padding-top: 43px;
+   }
+}
+
+@media only screen and (max-width: 400px) {
+   #map {
+      width: 90%;
    }
 }
