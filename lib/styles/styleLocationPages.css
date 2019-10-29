@@ -9,7 +9,6 @@
 
 /* Container div of Checkfront iFrame */
 #CHECKFRONT_WIDGET_01 {
-    position: relative;
     margin: auto;
     padding: 2em 0;
     min-width: 500px;
@@ -18,12 +17,9 @@
 
 /* Checkfront iFrame */
 .CHECKFRONT_DROPLET {
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    /* height: 100% !important; */
-    overflow: scroll !important;
 }
 
 /*-----------------------------------------*/
@@ -32,10 +28,7 @@
 @media only screen and (max-width: 640px) {
     #CHECKFRONT_WIDGET_01 {
         width: 90vw;
+        min-width: auto;
         max-width: 90vw;
     }
-
-    /* .CHECKFRONT_DROPLET {
-        min-width: 90vw !important;
-    } */
 }
