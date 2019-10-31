@@ -492,12 +492,13 @@ body
       margin-top: 20px;
    }
 
-   .IWliPhone,
-   .IWliEmail,
    .IWliURL,
    .IWliNotes {
-      margin-top: 7.5px;
       margin-left: 0px;
+   }
+
+   .IWliURL {
+      margin-top: 7.5px;
    }
 
    #map .IWliURL > a {
