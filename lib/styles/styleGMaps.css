@@ -83,7 +83,7 @@ body > main > section:nth-of-type(2) {
 }
 
 #map .dInstructionInner {
-   padding-top: 3px;
+   padding-top: 5px;
    text-align: center;
    background-color: #fc3903;
    line-height: 15px;
