@@ -90,6 +90,11 @@ body > main > section:nth-of-type(2) {
    margin: 5px;
 }
 
+/* Close button */
+#map button.gm-ui-hover-effect {
+   opacity: 1;
+}
+
 .IWdiv {
    background-color: #f7efb7;
    border-radius: 5px;
