@@ -222,8 +222,8 @@ body > main > section:nth-of-type(3) {
 /*----------------------------------------------*/
 /* Title verbiage ("Beaches where Sand Helper Wheelchairs can be Found */
 body > main > section:nth-of-type(3) > h3 {
+   padding-top: 0.5em;
    text-decoration: none;
-   margin-block-start: 0.5em;
    margin-block-end: 0em;
 }
 
