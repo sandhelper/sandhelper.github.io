@@ -328,17 +328,15 @@ main > div > section:nth-of-type(1) > figure > figcaption {
 .image-animation {
    width: 82%;
    height: 35vw;
-   overflow: hidden;
    position: relative;
    border-radius: 3px;
-   margin-bottom: 12px;
+   margin-bottom: 1em;
    margin-left: auto; /* center section horizontally  #1 */
    margin-right: auto; /* center section horizontally  #2 */
 }
 
 /* The setup for animation */
 .image-animation > img {
-   margin-top: 5px;
    position: absolute;
    animation: myAnimation 32s infinite;
    opacity: 0;
@@ -346,7 +344,7 @@ main > div > section:nth-of-type(1) > figure > figcaption {
    height: auto;
    border-radius: 12px;
    box-shadow: 0.3em 0.3em 0.4em #000;
-   margin-left: 0.75em;
+   margin-left: 0.15em;
 }
 
 @keyframes myAnimation {
@@ -820,11 +818,6 @@ span {
       width: 100%;
       transition: all 1.5s;
    }
-
-   /* The first section in main holds the flipping (animated) images */
-   .image-animation {
-      height: 35vw;
-   }
 }
 /**************************/
 /* really narrow screens  */
@@ -919,16 +912,13 @@ span {
       padding-top: 33px;
    }
 
-   .image-animation > img {
-      height: 32vw;
-      width: auto;
-      box-shadow: 0.1em 0.1em 0.3em #000;
-      margin-left: 4vw;
-   }
-
    /* main about text section on homepage */
    .about-content {
       width: 90%;
+   }
+
+   .image-animation {
+      margin-bottom: 2em;
    }
 }
 
@@ -950,10 +940,6 @@ span {
       width: 104vw;
       margin: 8px;
    }
-
-   .image-animation > img {
-      margin-left: 7vw;
-   }
 }
 
 /*-----------------------------------------*/
@@ -973,10 +959,6 @@ span {
    body {
       width: 110vw;
       margin: 8px;
-   }
-
-   .image-animation > img {
-      margin-left: 10vw;
    }
 }
 
