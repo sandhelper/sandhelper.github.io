@@ -32,3 +32,9 @@
         max-width: 90vw;
     }
 }
+
+@media only screen and (max-width: 320px) {
+    #more-locations-link {
+        font-size: 1.1em;
+    }
+}
