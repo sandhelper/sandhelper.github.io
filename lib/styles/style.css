@@ -18,7 +18,7 @@ header {
    background-image: url(../images/headerBackground.jpg);
 }
 
-.mobile-nav {
+#mobile-nav {
    width: 135px;
 }
 
