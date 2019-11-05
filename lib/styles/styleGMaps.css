@@ -159,6 +159,10 @@ IWliurl {
    font-size: 15px;
 }
 
+.IWliEmail.mobile {
+   display: none;
+}
+
 /* link styling */
 .IWdiv a {
    text-decoration: none;
@@ -481,6 +485,14 @@ body
       margin-left: 12px;
       font-size: 16px;
       color: blue;
+   }
+
+   .IWliEmail.mobile {
+      display: block;
+   }
+
+   .IWliEmail.desktop {
+      display: none;
    }
 
    .dInstructionInner {
