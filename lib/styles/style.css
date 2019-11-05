@@ -338,7 +338,7 @@ main > div > section:nth-of-type(1) > figure > figcaption {
 /* The setup for animation */
 .image-animation > img {
    position: absolute;
-   animation: myAnimation 32s infinite;
+   animation: myAnimation 16s infinite;
    opacity: 0;
    width: 98%;
    height: auto;
@@ -361,13 +361,13 @@ main > div > section:nth-of-type(1) > figure > figcaption {
    animation-delay: 0s;
 }
 .image-animation > img:nth-child(3) {
-   animation-delay: 8s;
+   animation-delay: 4s;
 }
 .image-animation > img:nth-child(2) {
-   animation-delay: 16s;
+   animation-delay: 8s;
 }
 .image-animation > img:nth-child(1) {
-   animation-delay: 24s;
+   animation-delay: 12s;
 }
 
 /* video section */
