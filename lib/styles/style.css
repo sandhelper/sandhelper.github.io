@@ -146,7 +146,7 @@ a:hover:before {
    transform: scaleX(1);
 }
 
-a:before {
+a.hover-underline:before {
    content: "";
    position: absolute;
    width: 100%;
