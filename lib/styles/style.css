@@ -430,6 +430,7 @@ body > footer {
    width: 100%;
    padding-top: 5px;
    margin-top: 5px;
+   background-color: #eee;
 }
 
 body > footer > section:nth-of-type(1) {
@@ -438,7 +439,6 @@ body > footer > section:nth-of-type(1) {
    width: 70vw;
    min-width: 150px;
    position: relative; /* center made in USA image: step #1 */
-   background-color: #eee;
    border-bottom-left-radius: 12px;
 }
 
@@ -448,7 +448,6 @@ body > footer > section:nth-of-type(2) {
    width: 35vw;
    min-width: 270px;
    font-family: "Karla", monospace;
-   background-color: #eee;
 }
 
 body > footer > section:nth-of-type(3) {
@@ -460,7 +459,6 @@ body > footer > section:nth-of-type(3) {
    width: 100%;
    text-align: center;
    overflow: hidden;
-   background-color: #eee;
    border-bottom-right-radius: 12px;
    z-index: 0;
 }
