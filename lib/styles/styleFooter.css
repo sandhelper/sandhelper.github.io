@@ -71,7 +71,6 @@ footer article.footer-section {
 }
 
 @media only screen and (max-width: 1040px) {
-
     /* Left Badges + Right Credit Cards Section */
     .footer-section.badges,
     .footer-section.credit-cards {
