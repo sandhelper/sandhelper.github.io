@@ -95,6 +95,6 @@ footer article.footer-section {
 
     /* Center Socials/Copyright Section */
     .footer-section.central {
-        width: 50%;
+        width: 100%;
     }
 }
