@@ -55,7 +55,7 @@ footer article.footer-section {
     vertical-align: middle;
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1320px) {
     /* Left Badges Section */
     .footer-section.badges {
         zoom: 0.8;
@@ -65,5 +65,21 @@ footer article.footer-section {
     /* Right Credit Cards Section */
     .footer-section.credit-cards {
         padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 1040px) {
+    /* Left Badges Section */
+    .footer-section.badges {
+        zoom: 0.8;
+        -moz-transform: scale(0.8);
+        flex-wrap: wrap;
+        width: 25%;
+    }
+
+    /* Right Credit Cards Section */
+    .footer-section.credit-cards {
+        flex-wrap: wrap;
+        width: 25%;
     }
 }
