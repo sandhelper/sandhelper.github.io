@@ -8,6 +8,7 @@
         content="Rent an electric powered beach wheelchair at one of our 6 East Coast locations including Ocean City MD, Bethany DE, Rehoboth DE, VA Beach, New Jersey, Outer Banks, and Myrtle" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="../lib/styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="./lib/styles/styleFooter.css" />
     <link rel="stylesheet" type="text/css" href="../lib/styles/styleLocationPages.css" />
     <link rel="icon" href="../lib/images/longMascotIcon.png" />
     <script src="../lib/scripts/googleAnalytics.js"></script>
@@ -158,42 +159,52 @@
     </main>
 
     <footer>
-        <!-- Made in USA Section -->
-        <section>
-            <img src="../lib/images/madeinusaparts.png" alt="made in usa" />
-        </section>
-        <!-- Contact Section -->
-        <section>
-            <ul>
-                <li>
-                    <a href="sms:8557435737"><span class="fas fa-sms fa-2x"></span></a>
-                    <span id="tt1">Text Message Sand Helper</span>
-                </li>
-                <li>
-                    <a href="tel:8557435737"><span class="fas fa-phone fa-2x"></span></a>
-                    <span id="tt2">Phone Sand Helper</span>
-                </li>
-                <li>
-                    <a href="mailto:info@sandhelper.com"><span class="fas fa-envelope fa-2x"></span></a>
-                    <span id="tt3">Email Sand Helper</span>
-                </li>
-                <li>
-                    <a href="https://www.facebook.com/sandhelper/?ref=br_rs"><span
-                            class="fab fa-facebook-square fa-2x"></span></a>
-                    <span id="tt4">Sand Helper's Facebook Page</span>
-                </li>
-                <li>© Copyright <script>document.write(new Date().getFullYear())</script>, Sand Helper LLC</li>
-            </ul>
-        </section>
-        <!-- Credit card images Section -->
-        <section>
-            <ul>
-                <li><img src="../lib/images/mastercard.png" alt="mastercard" /></li>
-                <li><img src="../lib/images/visa.png" alt="visa" /></li>
-                <li><img src="../lib/images/discover.png" alt="discover" /></li>
-                <li><img src="../lib/images/amex1.jpg" alt="amex" /></li>
-            </ul>
-        </section>
+         <!-- Badges Section -->
+         <article class="footer-section badges">
+            <!-- Google Badge -->
+            <div class="reviews-badge">
+               <div data-token="Rgy0cNdzKHHstNomH5vQ6wM6VeXTFt3WQem79s10aMPCtxlOGO" class="romw-badge"></div>
+               <script src="https://reviewsonmywebsite.com/js/embedLoader.js?id=16985fd9e429040ba7c6"
+               type="text/javascript"></script>
+            </div>
+            <!-- Facebook Badge -->
+            <div class="reviews-badge">
+               <div data-token="Xrx8k4WAeZRgavFBW9KyI5WVbRLrremOWJe2ObsGW8M4cLpFkh" class="romw-badge"></div>
+               <script src="https://reviewsonmywebsite.com/js/embedLoader.js?id=16985fd9e429040ba7c6"
+                  type="text/javascript"></script>
+            </div>
+            <!-- Made in USA Badge -->
+            <img class="usa-badge" src="./lib/images/madeinusaparts.png" alt="made in usa" />
+         </article>
+         <!-- Contact Section -->
+         <article class="footer-section central">
+            <div id="social-links">
+               <div>
+                  <a href="sms:8557435737"><span class="fas fa-sms fa-2x"></span></a>
+                  <span class="socials-tooltip" id="tt1">Text Message Sand Helper</span>
+               </div>
+               <div>
+                  <a href="tel:8557435737"><span class="fas fa-phone fa-2x"></span></a>
+                  <span class="socials-tooltip" id="tt2">Phone Sand Helper</span>
+               </div>
+               <div>
+                  <a href="mailto:info@sandhelper.com"><span class="fas fa-envelope fa-2x"></span></a>
+                  <span class="socials-tooltip" id="tt3">Email Sand Helper</span>
+               </div>
+               <div>
+                  <a href="https://www.facebook.com/sandhelper/?ref=br_rs"><span class="fab fa-facebook-square fa-2x"></span></a>
+                  <span class="socials-tooltip" id="tt4">Sand Helper's Facebook Page</span>
+               </div>
+            </div>
+            <div>© Copyright <script>document.write(new Date().getFullYear())</script>, Sand Helper LLC</li>
+         </article>
+         <!-- Credit card images Section -->
+         <article class="footer-section credit-cards">
+            <img class="credit-card" src="./lib/images/mastercard.png" alt="mastercard" />
+            <img class="credit-card" src="./lib/images/visa.png" alt="visa" />
+            <img class="credit-card" src="./lib/images/discover.png" alt="discover" />
+            <img class="credit-card" src="./lib/images/amex1.jpg" alt="amex" />
+         </article>
     </footer>
 
     <noscript>
