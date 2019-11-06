@@ -22,6 +22,14 @@ header {
    width: 135px;
 }
 
+.desktop-only {
+   display: block;
+}
+
+.mobile-only {
+   display: none !important;
+}
+
 /* the 'bullet-shot' facebook image from https://pt.vectorhq.com/psd/cracked-facebook-logo-psd-451808 */
 body > a > img {
    right: 0px;
@@ -60,20 +68,23 @@ body > section > ul {
    margin-right: auto;
    text-align: left;
    height: auto;
+   background-color: hsla(12, 95%, 47%, 0.93);
+   box-shadow: 0.1em 0.1em 0.3em #000;
+   border-radius: 5px;
 }
 
 h1.titlebar {
    display: block;
-   border-radius: 5px;
-   margin-left: 0px;
-   margin-right: 0.1em; /* accounts for the box-shadow */
    color: rgb(250, 245, 198);
-   background-color: hsla(12, 95%, 47%, 0.93);
-   box-shadow: 0.1em 0.1em 0.3em #000;
    font-size: 24px;
    padding: 10px 50px 9px 20px;
    text-decoration: none;
    font-weight: normal;
+}
+
+span.titlebar.subtitle {
+   font-size: 20px;
+   color: rgb(250, 245, 198);
 }
 
 h3 {
@@ -830,6 +841,14 @@ span {
    /* main about text section on homepage */
    .about-content {
       width: 75%;
+   }
+
+   .desktop-only {
+      display: none !important;
+   }
+   
+   .mobile-only {
+      display: block !important;
    }
 }
 
