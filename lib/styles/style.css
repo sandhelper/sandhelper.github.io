@@ -469,16 +469,20 @@ body > footer > section:nth-of-type(3) {
    display: flex;
 }
 
+.badges > div {
+   margin: 2px;
+}
+
 .usa-badge {
-   height: 75px;
-   width: 175px;
+   height: 64px;
+   width: 150px;
    border-radius: 3px;
    box-shadow: 0.1em 0.1em 0.3em #000;
 }
 
 .reviews-badge {
-   zoom: 0.365;   /* zoom entire widget to the same size as the USA Badge */
-   -moz-transform: scale(0.365);
+   zoom: 0.43;   /* zoom entire widget to the same size as the USA Badge */
+   -moz-transform: scale(0.43);
 }
 
 .reviews-badge .romw-badge {
