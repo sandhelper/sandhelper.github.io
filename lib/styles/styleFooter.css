@@ -54,3 +54,16 @@ footer article.footer-section {
     margin: 2px;
     vertical-align: middle;
 }
+
+@media only screen and (max-width: 960px) {
+    /* Left Badges Section */
+    .footer-section.badges {
+        zoom: 0.8;
+        -moz-transform: scale(0.8);
+        padding-left: 10px;
+    }
+    /* Right Credit Cards Section */
+    .footer-section.credit-cards {
+        padding-right: 10px;
+    }
+}
