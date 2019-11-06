@@ -470,7 +470,7 @@ body > footer > section:nth-of-type(3) {
 }
 
 .badges > div {
-   margin: 2px;
+   margin: 10px;
 }
 
 .usa-badge {
@@ -478,6 +478,7 @@ body > footer > section:nth-of-type(3) {
    width: 150px;
    border-radius: 3px;
    box-shadow: 0.1em 0.1em 0.3em #000;
+   margin-left: 4px;
 }
 
 .reviews-badge {
