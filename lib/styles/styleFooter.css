@@ -76,6 +76,11 @@ footer article.footer-section {
         width: 25%;
     }
 
+    /* Center Socials/Copyright Section */
+    .footer-section.central {
+        width: 50%;
+    }
+
     /* Right Credit Cards Section */
     .footer-section.credit-cards {
         flex-wrap: wrap;
