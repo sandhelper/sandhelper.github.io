@@ -426,11 +426,14 @@ button.accordion-toggle-btn {
 /* style footer section                                               */
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 body > footer {
-   display: inline-flex;
+   display: flex;
    width: 100%;
    padding-top: 5px;
    margin-top: 5px;
    background-color: #eee;
+   border-bottom-left-radius: 12px;
+   border-bottom-right-radius: 12px;
+}
 }
 
 body > footer > section:nth-of-type(1) {
