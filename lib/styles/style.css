@@ -467,22 +467,20 @@ body > footer > section:nth-of-type(3) {
 
 /*-------------------------------------*/
 /* Footer > Section 1 styling below    */
+.badges {
+   display: flex;
+}
+
 .usa-badge {
-   width: 12vw;
-   max-width: 130px;
-   min-width: 90px;
-   height: auto;
-   position: absolute; /* center made in USA image: step #2 */
-   top: 50%; /* center made in USA image: step #3 */
-   left: 50%; /* center made in USA image: step #4 */
-   transform: translate(-50%, -50%); /* center made in USA image: step #5 */
+   height: 75px;
+   width: 175px;
    border-radius: 3px;
    box-shadow: 0.1em 0.1em 0.3em #000;
 }
 
 .reviews-badge {
-   zoom: 0.5;
-   -moz-transform: scale(0.5);
+   zoom: 0.365;   /* zoom entire widget to the same size as the USA Badge */
+   -moz-transform: scale(0.365);
 }
 
 .reviews-badge .romw-badge {
