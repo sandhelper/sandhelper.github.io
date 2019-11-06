@@ -1,0 +1,57 @@
+footer article.footer-section {
+    display: flex;
+    width: 33.3%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* Left Badges Section */
+.footer-section.badges {
+    padding-left: 2em;
+}
+
+/* Center Socials/Copyright Section */
+.footer-section.central {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-section.central #social-links {
+    display: flex;
+}
+
+#social-links > div {
+    width: 60px;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#social-links > div span {
+    margin: 0;
+}
+
+.socials-tooltip {
+    opacity: 0;
+    font-size: 8px;
+    top: -10px;
+    transition: all 0.5s;
+}
+
+/* Right Credit Cards Section */
+.footer-section.credit-cards {
+    justify-content: flex-end;
+    padding-right: 2em;
+}
+
+.credit-card {
+    border-radius: 3px;
+    box-shadow: 0.1em 0.1em 0.3em #000;
+    width: 100px;
+    max-width: 100px;
+    min-width: 50px;
+    margin: 2px;
+    vertical-align: middle;
+}
