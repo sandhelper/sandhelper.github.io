@@ -71,8 +71,10 @@ footer article.footer-section {
 }
 
 @media only screen and (max-width: 1040px) {
-    /* Left Badges Section */
-    .footer-section.badges {
+
+    /* Left Badges + Right Credit Cards Section */
+    .footer-section.badges,
+    .footer-section.credit-cards {
         flex-wrap: wrap;
         justify-content: center;
         width: 25%;
@@ -82,11 +84,17 @@ footer article.footer-section {
     .footer-section.central {
         width: 50%;
     }
+}
 
-    /* Right Credit Cards Section */
+@media only screen and (max-width: 640px) {
+    /* Left Badges + Right Credit Cards Section */
+    .footer-section.badges,
     .footer-section.credit-cards {
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 25%;
+        display: none;
+    }
+
+    /* Center Socials/Copyright Section */
+    .footer-section.central {
+        width: 50%;
     }
 }
