@@ -139,6 +139,7 @@ footer article.footer-section {
     width: 100px;
     max-width: 100px;
     min-width: 50px;
+    max-height: 64px;
     margin: 2px;
     vertical-align: middle;
 }
