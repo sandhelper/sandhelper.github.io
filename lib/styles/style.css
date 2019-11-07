@@ -589,10 +589,6 @@ button.accordion-toggle-btn {
 /*  491px <  device width < 640px wide     */
 /*-----------------------------------------*/
 @media only screen and (max-width: 640px) {
-   body > footer > section:nth-of-type(1) {
-      display: none;
-   }
-
    /* main about text section on homepage */
    .about-content {
       width: 75%;
@@ -611,34 +607,6 @@ button.accordion-toggle-btn {
 /*  361px <  device width < 490px wide     */
 /*-----------------------------------------*/
 @media only screen and (max-width: 490px) {
-   body > footer > section:nth-of-type(1) {
-      display: none;
-      width: 0px;
-   }
-
-   body > footer > section:nth-of-type(3) {
-      display: none;
-      width: 0px;
-   }
-
-   /* copyright wording styling */
-   body > footer > section:nth-of-type(2) > ul > li:nth-of-type(5) {
-      font-size: 11px;
-      margin-top: 6px;
-      padding-left: 52px;
-   }
-
-   body > footer > section:nth-of-type(2) {
-      width: 96vw;
-      border-radius: 5px;
-      box-shadow: 0.1em 0.1em 0.3em rgb(0, 0, 0);
-   }
-
-   body > footer > section:nth-of-type(2) > ul > li {
-      padding-left: 4vw;
-      padding-right: 4vw;
-   }
-
    body {
       margin: 8px;
    }
@@ -697,16 +665,6 @@ button.accordion-toggle-btn {
 /*  321px <  device width < 361px wide     */
 /*-----------------------------------------*/
 @media only screen and (max-width: 361px) {
-   body > footer > section:nth-of-type(3) {
-      display: none;
-   }
-
-   body > footer > section:nth-of-type(2) {
-      width: 104vw;
-      border-radius: 5px;
-      box-shadow: 0.1em 0.1em 0.3em rgb(0, 0, 0);
-   }
-
    body {
       width: 104vw;
       margin: 8px;
