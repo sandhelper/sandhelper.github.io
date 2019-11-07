@@ -1,3 +1,14 @@
+body>footer {
+    display: flex;
+    min-height: 90px;
+    width: 100%;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #eee;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
 footer article.footer-section {
     display: flex;
     width: 33.3%;
@@ -9,6 +20,28 @@ footer article.footer-section {
 .footer-section.badges {
     padding-left: 2em;
     align-items: center;
+}
+
+.badges > div {
+    margin: 10px;
+}
+
+.usa-badge {
+    height: 64px;
+    width: 150px;
+    border-radius: 3px;
+    box-shadow: 0.1em 0.1em 0.3em #000;
+    margin-left: 4px;
+}
+
+.reviews-badge {
+    zoom: 0.43;
+    /* zoom entire widget to the same size as the USA Badge */
+    -moz-transform: scale(0.43);
+}
+
+.reviews-badge .romw-badge {
+    box-shadow: 0.1em 0.1em 0.3em #000;
 }
 
 /* Center Socials/Copyright Section */

@@ -425,78 +425,6 @@ button.accordion-toggle-btn {
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /* style footer section                                               */
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
-body > footer {
-   display: flex;
-   height: 90px;
-   width: 100%;
-   padding-top: 5px;
-   margin-top: 5px;
-   background-color: #eee;
-   border-bottom-left-radius: 12px;
-   border-bottom-right-radius: 12px;
-}
-}
-
-body > footer > section:nth-of-type(1) {
-   float: none;
-   display: inline-block;
-   width: 70vw;
-   min-width: 150px;
-   position: relative; /* center made in USA image: step #1 */
-   border-bottom-left-radius: 12px;
-}
-
-body > footer > section:nth-of-type(2) {
-   float: none;
-   display: inline-block;
-   width: 35vw;
-   min-width: 270px;
-   font-family: "Karla", monospace;
-}
-
-body > footer > section:nth-of-type(3) {
-   float: none;
-   display: inline-block;
-   position: relative;
-   margin-left: 0%;
-   min-width: 150px;
-   width: 100%;
-   text-align: center;
-   overflow: hidden;
-   border-bottom-right-radius: 12px;
-   z-index: 0;
-}
-
-/*-------------------------------------*/
-/* Footer > Section 1 styling below    */
-.badges {
-   display: flex;
-}
-
-.badges > div {
-   margin: 10px;
-}
-
-.usa-badge {
-   height: 64px;
-   width: 150px;
-   border-radius: 3px;
-   box-shadow: 0.1em 0.1em 0.3em #000;
-   margin-left: 4px;
-}
-
-.reviews-badge {
-   zoom: 0.43;   /* zoom entire widget to the same size as the USA Badge */
-   -moz-transform: scale(0.43);
-}
-
-.reviews-badge .romw-badge {
-   box-shadow: 0.1em 0.1em 0.3em #000;
-}
-
-/*-------------------------------------*/
-
-/*-------------------------------------*/
 /* Footer > Section 2 styling below    */
 /* contact information unordered list styling */
 body > footer > section:nth-of-type(2) > ul {
@@ -633,41 +561,10 @@ body
    transition: all 0.5s;
 }
 
-/* copyright wording styling */
-body > footer > section:nth-of-type(2) > ul > li:nth-of-type(5) {
-   font-size: 11px;
-   margin-top: 10px;
-}
-/*-------------------------------------*/
-
 /*-------------------------------------*/
 /* Footer > Section 3 styling below    */
 /* credit card unordered list styling */
 
-body > footer > section:nth-of-type(3) > ul {
-   list-style-type: none;
-   width: 30vw;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -70%);
-}
-
-body > footer > section:nth-of-type(3) > ul > li {
-   float: left;
-   vertical-align: middle;
-}
-
-/* credit card images */
-body > footer > section:nth-of-type(3) > ul > li img {
-   border-radius: 3px;
-   box-shadow: 0.1em 0.1em 0.3em #000;
-   width: 7vw;
-   max-width: 100px;
-   min-width: 50px;
-   height: auto;
-   margin: 2px;
-}
 
 /* amex credit card is a little small */
 body > footer > section:nth-of-type(3) > ul > li:nth-of-type(4) > img {
