@@ -30,7 +30,7 @@ body > main > section:nth-of-type(2) {
 }
 
 #map {
-   height: 75vh;
+   height: 80vh;
    width: 75%;
    border-radius: 10px;
    box-shadow: 0.3em 0.3em 1em #000;
