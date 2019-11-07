@@ -63,10 +63,36 @@ footer article.footer-section {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-size: 16px;
 }
 
 #social-links > div span {
     margin: 0;
+}
+
+#social-links a {
+    padding-top: 5px;
+}
+
+#social-links > div > span {
+    opacity: 0;
+    background-color: hsla(12, 95%, 47%, 0.93);
+    color: rgb(250, 245, 198);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 8px;
+    z-index: 9001;
+}
+
+#social-links>div span:hover {
+    color: hsla(12, 95%, 47%, 0.93);
+    transition: all 0.5s ease-in-out;
+}
+
+#social-links>div span:not(:hover) {
+    color: black;
+    transition: all 0.5s ease-in-out;
 }
 
 .socials-tooltip {
@@ -74,6 +100,30 @@ footer article.footer-section {
     font-size: 8px;
     top: -10px;
     transition: all 0.5s;
+}
+
+#social-links > div:hover .socials-tooltip {
+    opacity: 1;
+    font-size: 14px;
+    color: rgb(250, 245, 198);
+    transition: all 0.5s;
+}
+
+/* Custom tooltip widths */
+#tt1 {
+    width: 175px;
+}
+
+#tt2, #tt3 {
+    width: 140px;
+}
+
+#tt4 {
+    width: 195px;
+}
+
+#copyright {
+    padding: 17px 0;
 }
 
 /*-------------------------------------*/
