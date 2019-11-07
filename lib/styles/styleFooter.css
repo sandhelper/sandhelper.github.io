@@ -16,7 +16,8 @@ footer article.footer-section {
     margin-bottom: auto;
 }
 
-/* Left Badges Section */
+/*-------------------------------------*/
+/* Left Badges Section                 */
 .footer-section.badges {
     padding-left: 2em;
     align-items: center;
@@ -44,7 +45,8 @@ footer article.footer-section {
     box-shadow: 0.1em 0.1em 0.3em #000;
 }
 
-/* Center Socials/Copyright Section */
+/*-------------------------------------*/
+/* Center Socials/Copyright Section    */
 .footer-section.central {
     flex-direction: column;
     align-items: center;
@@ -74,7 +76,8 @@ footer article.footer-section {
     transition: all 0.5s;
 }
 
-/* Right Credit Cards Section */
+/*-------------------------------------*/
+/* Right Credit Cards Section          */
 .footer-section.credit-cards {
     justify-content: flex-end;
     padding-right: 2em;
