@@ -561,23 +561,6 @@ body
    transition: all 0.5s;
 }
 
-/*-------------------------------------*/
-/* Footer > Section 3 styling below    */
-/* credit card unordered list styling */
-
-
-/* amex credit card is a little small */
-body > footer > section:nth-of-type(3) > ul > li:nth-of-type(4) > img {
-   transform: translate(0, 2px);
-}
-
-/* padding between font-awesome logos and telephone number, email, facebook and copyright words */
-span {
-   margin-right: 15px;
-   color: black;
-}
-/*-------------------------------------*/
-
 /*--------------------------------------------------------*/
 /* make it responsive                                     */
 /*--------------------------------------------------------*/
