@@ -607,6 +607,10 @@ button.accordion-toggle-btn {
 /*  361px <  device width < 490px wide     */
 /*-----------------------------------------*/
 @media only screen and (max-width: 490px) {
+   html, body {
+      overflow-x: hidden;
+   }
+   
    body {
       margin: 8px;
    }
