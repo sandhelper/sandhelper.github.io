@@ -30,6 +30,13 @@ header {
    display: none !important;
 }
 
+.body-content {
+   padding-top: 30px;
+   width: 90%;
+   margin: auto;
+   max-width: 800px;
+}
+
 /* the 'bullet-shot' facebook image from https://pt.vectorhq.com/psd/cracked-facebook-logo-psd-451808 */
 body > a > img {
    right: 0px;
