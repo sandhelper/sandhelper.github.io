@@ -21,6 +21,8 @@ footer article.footer-section {
 .footer-section.badges {
     padding-left: 2em;
     align-items: center;
+    margin-top: -40px;
+    margin-bottom: -40px;
 }
 
 .badges > div {
@@ -32,13 +34,24 @@ footer article.footer-section {
     width: 150px;
     border-radius: 3px;
     box-shadow: 0.1em 0.1em 0.3em #000;
-    margin-left: 4px;
+    margin-left: -88px;
+}
+
+#google-badge {
+    margin-left: -85px;
+}
+
+#facebook-badge {
+    margin-left: -175px;
 }
 
 .reviews-badge {
-    zoom: 0.43;
-    /* zoom entire widget to the same size as the USA Badge */
-    -moz-transform: scale(0.43);
+    /* scale entire widget to the same size as the USA Badge */
+    -webkit-transform: scale(0.43); /* Chrome, Opera 15+, Safari 3.1+ */
+    -moz-transform: scale(0.43); /* Firefox 3.5+ */
+    -ms-transform: scale(0.43); /* IE 9 */
+    -o-transform: scale(0.43); /* Opera 10.5+ */
+    transform: scale(0.43); /* Firefox 16+, IE 10+, Opera */
 }
 
 .reviews-badge .romw-badge {
@@ -152,10 +165,14 @@ footer article.footer-section {
 @media only screen and (max-width: 1320px) {
     /* Left Badges Section */
     .footer-section.badges {
-        zoom: 0.8;
-        -moz-transform: scale(0.8);
+        -webkit-transform: scale(0.8); /* Chrome, Opera 15+, Safari 3.1+ */
+        -moz-transform: scale(0.8); /* Firefox 3.5+ */
+        -ms-transform: scale(0.8); /* IE 9 */
+        -o-transform: scale(0.8); /* Opera 10.5+ */
+        transform: scale(0.8); /* Firefox 16+, IE 10+, Opera */
         padding-left: 10px;
     }
+
     /* Right Credit Cards Section */
     .footer-section.credit-cards {
         padding-right: 10px;
@@ -170,6 +187,27 @@ footer article.footer-section {
         justify-content: center;
         width: 25%;
     }
+
+    .footer-section.badges {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .footer-section.badges {
+        height: 230px;
+    }
+
+    #google-badge {
+        margin: -60px 0 -45px 0;
+    }
+
+     #facebook-badge {
+        margin: -75px 0;
+     }
+     
+     .usa-badge {
+        margin: 0;
+     }
 
     /* Center Socials/Copyright Section */
     .footer-section.central {
