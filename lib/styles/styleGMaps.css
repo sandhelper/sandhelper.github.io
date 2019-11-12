@@ -13,18 +13,7 @@ body > main {
    flex-direction: column;
 }
 
-body > main > section:nth-of-type(1) {
-   height: auto;
-   width: 82%;
-   overflow: hidden;
-   position: relative;
-   border-radius: 3px;
-   margin-bottom: 12px;
-   margin-left: auto; /* center section horizontally  #1 */
-   margin-right: auto; /* center section horizontally  #2 */
-}
-
-body > main > section:nth-of-type(2) {
+#map-container {
    all: unset;
    margin-bottom: 10px;
 }
@@ -206,7 +195,7 @@ IWliurl {
 }
 
 /* Section 3: the container holding the unordered list holding the list items holding the state <divs/> */
-body > main > section:nth-of-type(3) {
+#locations-accordion-container {
    display: block;
    border-radius: 6px;
    padding-left: 7px;
@@ -225,34 +214,34 @@ body > main > section:nth-of-type(3) {
 /* third section styling                        */
 /*----------------------------------------------*/
 /* Title verbiage ("Beaches where Sand Helper Wheelchairs can be Found */
-body > main > section:nth-of-type(3) > h3 {
+#locations-accordion-container > h3 {
    padding-top: 0.5em;
    text-decoration: none;
    margin-block-end: 0em;
 }
 
 /* centering the div that holds the states <uls/> */
-body > main > section:nth-of-type(3) > div {
+#locations-accordion-container > div {
    margin-left: auto;
    margin-right: auto;
    text-align: center;
 }
 
 /* the unordered list holding the list items holding the state <divs/> */
-body > main > section:nth-of-type(3) > div > ul {
+#locations-accordion-container > div > ul {
    list-style-type: none;
    position: relative;
 }
 
 /* the list items holding the state <divs/> */
-body > main > section:nth-of-type(3) > div > ul > li {
+#locations-accordion-container > div > ul > li {
    float: left;
    width: 100%;
    text-align: left;
 }
 
 /* styling for the state header */
-body > main > section:nth-of-type(3) > div > ul > li > h4 {
+#locations-accordion-container > div > ul > li > h4 {
    text-align: center;
    background-color: hsla(12, 95%, 47%, 0.93);
    color: rgb(250, 245, 198);
@@ -282,24 +271,22 @@ body > main > section:nth-of-type(3) > div > ul > li > h4 {
    transition: all 0.75s;
 }
 
-body > main > section:nth-of-type(3) .IWul {
+#locations-accordion-container .IWul {
    padding: 4px;
 }
 
 /* the email address and click for info, pricing and reservations line */
-body > main > section:nth-of-type(3) a {
+#locations-accordion-container a {
    color: black;
 }
 
 /* the name of the beach */
-body > main > section:nth-of-type(3) > div > ul > li > div > div > div > a {
+#locations-accordion-container > div > ul > li > div > div > div > a {
    color: black;
 }
 
 /* the name of the beach */
-body
-   > main
-   > section:nth-of-type(3)
+#locations-accordion-container
    > div
    > ul
    > li
@@ -335,7 +322,7 @@ body
 }
 
 /* font size of state line  */
-body > main > section:nth-of-type(3) > div > ul > li > div > div > div > a {
+#locations-accordion-container > div > ul > li > div > div > div > a {
    font-size: 20px;
 }
 
@@ -388,9 +375,7 @@ body > main > section:nth-of-type(3) > div > ul > li > div > div > div > a {
    transform: rotate(0deg);
 }
 
-body
-   > main
-   > section:nth-of-type(3)
+#locations-accordion-container
    > div
    > ul
    > li
@@ -407,9 +392,7 @@ body
    transform: rotate(-90deg);
 }
 
-body
-   > main
-   > section:nth-of-type(3)
+#locations-accordion-container
    > div
    > ul
    > li
@@ -462,9 +445,7 @@ body
 }
 
 @media only screen and (max-width: 720px) {
-   body
-      > main
-      > section:nth-of-type(3)
+   #locations-accordion-container
       > div
       > ul
       > li
@@ -528,10 +509,10 @@ body
    body > main {
       padding-top: 43px;
    }
-   body > main > section:nth-of-type(3) ul {
+   #locations-accordion-container ul {
       padding-left: 0px;
    }
-   body > main > section:nth-of-type(3) > div > ul > li {
+   #locations-accordion-container > div > ul > li {
       width: 100%;
    }
 }
