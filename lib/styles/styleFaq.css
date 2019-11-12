@@ -5,16 +5,9 @@
    width: 98%;
    margin-left: auto;
    margin-right: auto;
-   text-align: left;
+   text-align: center;
    height: auto;
    padding-bottom: 20px;
-}
-
-/* centering the div that holds the questions <uls/> */
-#faq-accordion-container {
-   margin-left: auto;
-   margin-right: auto;
-   text-align: center;
 }
 
 /* the list items holding the questions <divs/> */
