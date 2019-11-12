@@ -1,23 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Karla|Josefin+Sans:400&display=swap");
 
-body > main > section:nth-of-type(1) {
+#faq-accordion-container {
    color: rgb(250, 245, 198);
    width: 98%;
    margin-left: auto;
    margin-right: auto;
    text-align: left;
    height: auto;
+   padding-bottom: 20px;
 }
 
 /* centering the div that holds the questions <uls/> */
-body > main > section:nth-of-type(1) > div {
+#faq-accordion-container {
    margin-left: auto;
    margin-right: auto;
    text-align: center;
 }
 
 /* the list items holding the questions <divs/> */
-body > main > section:nth-of-type(1) > div > ul > li {
+#faq-accordion-container > ul > li {
    float: left;
    width: 100%;
    text-align: left;
@@ -65,16 +66,13 @@ body > main > section:nth-of-type(1) > div > ul > li {
 }
 
 /* the question */
-body > main > section:nth-of-type(1) > div > ul > li > div > div > div > a {
+#faq-accordion-container > ul > li > div > div > div > a {
    color: black;
    font-size: 12px;
 }
 
 /* the name of the beach */
-body
-   > main
-   > section:nth-of-type(1)
-   > div
+#faq-accordion-container
    > ul
    > li
    > div
@@ -105,7 +103,7 @@ a.linkincontent {
 }
 
 /* font size of state line  */
-body > main > section:nth-of-type(1) > div > ul > li > div > div > div > a {
+#faq-accordion-container > ul > li > div > div > div > a {
    font-size: 21px;
 }
 
@@ -132,10 +130,7 @@ body > main > section:nth-of-type(1) > div > ul > li > div > div > div > a {
 }
 
 /* plusMinus button styling  on hover */
-body
-   > main
-   > section:nth-of-type(1)
-   > div
+#faq-accordion-container
    > ul
    > li
    > div
@@ -167,10 +162,7 @@ body
    transform: rotate(0deg);
 }
 
-body
-   > main
-   > section:nth-of-type(1)
-   > div
+#faq-accordion-container
    > ul
    > li
    > div
@@ -186,10 +178,7 @@ body
    transform: rotate(-90deg);
 }
 
-body
-   > main
-   > section:nth-of-type(1)
-   > div
+#faq-accordion-container
    > ul
    > li
    > div
