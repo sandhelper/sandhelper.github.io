@@ -164,6 +164,10 @@ IWliurl {
    position: relative;
 }
 
+.IWliURL a {
+   text-decoration: underline;
+}
+
 /* link styling */
 .IWdiv a:hover {
    color: #000;
