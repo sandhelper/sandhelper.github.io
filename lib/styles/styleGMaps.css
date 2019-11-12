@@ -13,6 +13,10 @@ body > main {
    flex-direction: column;
 }
 
+#locations-description {
+   max-width: 75%;
+}
+
 #map-container {
    all: unset;
    margin-bottom: 10px;

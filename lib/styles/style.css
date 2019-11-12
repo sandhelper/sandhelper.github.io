@@ -347,6 +347,15 @@ main > div > section:nth-of-type(1) > figure > figcaption {
    padding-left: 3px;
 }
 
+/* smaller drop cap */
+.small.drop-cap::first-letter {
+   font-size: 35px;
+   line-height: 20px;
+   padding-top: 4px;
+   padding-right: 4px;
+   padding-left: 2px;
+}
+
 /* The first section in main holds the flipping (animated) images */
 .image-animation {
    width: 80%;
