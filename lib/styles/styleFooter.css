@@ -177,11 +177,6 @@ footer article.footer-section {
         transform: scale(0.8); /* Firefox 16+, IE 10+, Opera */
         padding-left: 0;
     }
-
-    /* Right Credit Cards Section */
-    .footer-section.credit-cards {
-        /* padding-right: 10px; */
-    }
 }
 
 @media only screen and (max-width: 1040px) {
