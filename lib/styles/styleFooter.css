@@ -54,6 +54,11 @@ footer article.footer-section {
     transform: scale(0.43); /* Firefox 16+, IE 10+, Opera */
 }
 
+/* Increase "Based on x reviews" text */
+.romw-badge-single__reviews {
+    font-size: 28px !important;
+}
+
 .reviews-badge .romw-badge {
     box-shadow: 0.175em 0.175em 0.5em #000;
     border-radius: 6px;

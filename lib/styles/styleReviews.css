@@ -16,11 +16,6 @@ section.reviews {
    max-width: 800px;
 }
 
-/* Increase "Based on x reviews" text */
-.romw-badge-single__reviews {
-   font-size: 28px !important;
-}
-
 @media only screen and (max-width: 960px) {
    body > main {
       padding-top: 135px;
