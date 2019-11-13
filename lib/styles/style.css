@@ -41,6 +41,11 @@ header {
    max-width: 800px;
 }
 
+/* Reviews side button */
+.romw-button.romw-right {
+   top: 40% !important;
+}
+
 /* the 'bullet-shot' facebook image from https://pt.vectorhq.com/psd/cracked-facebook-logo-psd-451808 */
 body > a > img {
    right: 0px;
