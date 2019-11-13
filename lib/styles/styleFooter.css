@@ -153,7 +153,7 @@ footer article.footer-section {
 /* Right Credit Cards Section          */
 .footer-section.credit-cards {
     justify-content: flex-end;
-    padding-right: 2em;
+    padding-right: 5px;
 }
 
 .credit-card {
@@ -175,12 +175,12 @@ footer article.footer-section {
         -ms-transform: scale(0.8); /* IE 9 */
         -o-transform: scale(0.8); /* Opera 10.5+ */
         transform: scale(0.8); /* Firefox 16+, IE 10+, Opera */
-        padding-left: 10px;
+        padding-left: 0;
     }
 
     /* Right Credit Cards Section */
     .footer-section.credit-cards {
-        padding-right: 10px;
+        /* padding-right: 10px; */
     }
 }
 
