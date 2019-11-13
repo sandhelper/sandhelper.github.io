@@ -18,6 +18,10 @@ header {
    background-image: url(../images/headerBackground.jpg);
 }
 
+.fas.fa-phone.fa-lg {
+   margin-right: 10px;
+}
+
 #mobile-nav {
    width: 135px;
 }
