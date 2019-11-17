@@ -159,10 +159,10 @@ footer article.footer-section {
 .credit-card {
     border-radius: 3px;
     box-shadow: 0.1em 0.1em 0.3em #000;
-    width: 70px;
-    max-width: 70px;
-    min-width: 50px;
-    max-height: 44.8px;
+    width: 80px;
+    max-width: 80px;
+    min-width: 60px;
+    max-height: 52px;
     margin: 2px;
     vertical-align: middle;
 }
@@ -176,6 +176,13 @@ footer article.footer-section {
         -o-transform: scale(0.8); /* Opera 10.5+ */
         transform: scale(0.8); /* Firefox 16+, IE 10+, Opera */
         padding-left: 0;
+    }
+
+    .credit-card {
+        width: 70px;
+        max-width: 70px;
+        min-width: 50px;
+        max-height: 44.8px;
     }
 }
 
