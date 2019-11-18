@@ -98,6 +98,7 @@ body > main {
    z-index: 1000; /* make sure orange border color stays visible */
    border: 1px solid hsla(12, 95%, 47%, 0.93);
    margin-bottom: 3px;
+   margin-left: 2px;
 }
 
 .IWp {
