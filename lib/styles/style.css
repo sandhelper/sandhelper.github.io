@@ -704,7 +704,7 @@ button.accordion-toggle-btn {
 /*-----------------------------------------*/
 @media only screen and (max-width: 361px) {
    body {
-      width: 104vw;
+      /* width: 104vw; */
       margin: 8px;
    }
 }
@@ -724,7 +724,7 @@ button.accordion-toggle-btn {
    }
 
    body {
-      width: 110vw;
+      /* width: 110vw; */
       margin: 8px;
    }
 }
