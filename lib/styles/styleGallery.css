@@ -18,7 +18,6 @@ body > main {
    flex-direction: column;
    min-width: 0.75rem;
    min-height: 100vh; /* originally 100vh */
-   background: gainsboro;
    font: 0.75rem satisfy, cursive;
    padding-left: 20px;
    overflow-y: hidden;
