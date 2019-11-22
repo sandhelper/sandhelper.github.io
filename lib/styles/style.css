@@ -694,7 +694,7 @@ button.accordion-toggle-btn {
       width: 90%;
    }
 
-   .image-animation {
+   .image-animation.extra-mobile-padding-top {
       padding-top: 2em;
    }
 }
