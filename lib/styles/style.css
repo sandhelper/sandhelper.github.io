@@ -156,6 +156,10 @@ a {
    position: relative;
 }
 
+a.underline {
+   text-decoration: underline;
+}
+
 a:hover:before {
    visibility: visible;
    -webkit-transform: scaleX(1);
