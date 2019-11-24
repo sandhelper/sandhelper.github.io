@@ -107,6 +107,12 @@ h3 {
    text-decoration: underline;
 }
 
+p.emphasis {
+   font-weight: bold;
+   font-size: 1.15em;
+   line-height: 1.15em;
+}
+
 /* link styling */
 .desktop-nav a {
    text-decoration: none;
@@ -363,9 +369,9 @@ body > main > div {
 
 /* smaller drop cap */
 .small.drop-cap::first-letter {
-   font-size: 35px;
+   font-size: 41px;
    line-height: 20px;
-   padding-top: 4px;
+   padding-top: 7px;
    padding-right: 4px;
    padding-left: 2px;
 }
