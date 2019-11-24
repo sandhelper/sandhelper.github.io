@@ -320,7 +320,7 @@ body > main > div {
 }
 
 /* the image of the sand scooter II -- float allows text to wrap around image */
-main > div > section:nth-of-type(1) > figure {
+#inspiration-image {
    display: block;
    width: 30vw;
    height: auto;
@@ -329,13 +329,10 @@ main > div > section:nth-of-type(1) > figure {
    min-width: 120px;
 }
 
-main > div > section:nth-of-type(1) > figure > img {
+#inspiration-image > img {
    border-radius: 50%;
    box-shadow: 0 0 10px #000000;
-   margin-right: 6px;
-   margin-left: 6px;
-   margin-top: 10px;
-   margin-bottom: 6px;
+   margin: 10px 6px;
    width: 30vw;
    height: auto;
    float: right;
@@ -343,9 +340,9 @@ main > div > section:nth-of-type(1) > figure > img {
    max-width: 180px;
 }
 
-main > div > section:nth-of-type(1) > figure > figcaption {
+#inspiration-image > figcaption {
    font-size: 12px;
-   text-align: center;
+   margin-left: 26px;
 }
 
 /* drop cap */
