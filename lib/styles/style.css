@@ -34,6 +34,10 @@ header {
    display: none !important;
 }
 
+a.mobile-only-link {
+   pointer-events: none;
+}
+
 .body-content {
    padding-top: 10px;
    width: 90%;
@@ -638,6 +642,10 @@ button.accordion-toggle-btn {
    
    .mobile-only {
       display: block !important;
+   }
+
+   a.mobile-only-link {
+      pointer-events: auto;
    }
 }
 
