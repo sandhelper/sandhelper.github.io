@@ -170,6 +170,7 @@ a.underline {
    text-decoration: underline;
 }
 
+a.hover-underline:hover:before,
 a:hover:before {
    visibility: visible;
    -webkit-transform: scaleX(1);
