@@ -392,7 +392,7 @@ body > main > div {
 /* The setup for animation */
 .image-animation > img {
    position: absolute;
-   animation: myAnimation 12s infinite;
+   animation: myAnimation 15s infinite;
    opacity: 0;
    width: 100%;
    border-radius: 12px;
@@ -413,10 +413,10 @@ body > main > div {
    animation-delay: 0s;
 }
 .image-animation > img:nth-child(2) {
-   animation-delay: 4s;
+   animation-delay: 5s;
 }
 .image-animation > img:nth-child(3) {
-   animation-delay: 8s;
+   animation-delay: 10s;
 }
 
 /* video section */
