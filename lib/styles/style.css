@@ -225,6 +225,10 @@ main > section.content {
    margin-bottom: 0;
 }
 
+.m-t-0 {
+   margin-top: 0;
+}
+
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /* styling in header                                                  */
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -645,10 +649,6 @@ button.accordion-toggle-btn {
 
    a.mobile-only-link {
       pointer-events: auto;
-   }
-
-   .mobile-m-t-0 {
-      margin-top: 0;
    }
 }
 
