@@ -646,6 +646,10 @@ button.accordion-toggle-btn {
    a.mobile-only-link {
       pointer-events: auto;
    }
+
+   .mobile-m-t-0 {
+      margin-top: 0;
+   }
 }
 
 /*-----------------------------------------*/

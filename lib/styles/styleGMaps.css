@@ -469,6 +469,13 @@ IWliurl {
       display: none;
    }
 }
+
+@media only screen and (max-width: 720px) {
+   #locations-description {
+      max-width: 85%;
+   }
+}
+
 @media only screen and (max-width: 490px) {
    #map {
       width: 85%;
