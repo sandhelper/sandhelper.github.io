@@ -1,3 +1,5 @@
+Options -MultiViews
+
 RewriteEngine On
 
 # Get rid of .html extensions 
