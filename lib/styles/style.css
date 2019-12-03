@@ -50,6 +50,12 @@ a.mobile-only-link {
    top: 40% !important;
 }
 
+.romw-button .romw-link {
+   background: hsla(12, 95%, 47%, 0.93) !important;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+
 /* the 'bullet-shot' facebook image from https://pt.vectorhq.com/psd/cracked-facebook-logo-psd-451808 */
 body > a > img {
    right: 0px;
