@@ -3,6 +3,9 @@ Options -MultiViews
 RewriteEngine On
 DirectorySlash Off
 
+# Get rid of / at end of URL
+RewriteRule ^(.*)/$ /$1 [L,R=301]
+
 # Rewrite directories to their respective HTML page
 RewriteCond %{DOCUMENT_ROOT}/$1.html -f
 RewriteRule ^([^.]+)$ $1.html [L]
