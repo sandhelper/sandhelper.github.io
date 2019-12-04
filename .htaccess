@@ -1,6 +1,11 @@
 Options -MultiViews
 
 RewriteEngine On
+DirectorySlash Off
+
+# Rewrite directories to their respective HTML page
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^([^.]+)$ $1.html [L]
 
 # Get rid of .html extensions 
 RewriteCond %{REQUEST_FILENAME} !-d
