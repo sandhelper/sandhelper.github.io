@@ -22,6 +22,14 @@
     width: 100%;
 }
 
+@media only screen and (min-width: 490px) {
+    /* Offset for the content hidden by the header when navigating to page from anchor link */
+    #about {
+        margin-top: -150px;
+        padding-top: 150px;
+    }
+}
+
 /*-----------------------------------------*/
 /*  491px <  device width < 640px wide     */
 /*-----------------------------------------*/
