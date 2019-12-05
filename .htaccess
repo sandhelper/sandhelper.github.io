@@ -15,10 +15,6 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-# SSL / HTTPS Support
+# SSL / HTTPS Support and add www to any URLs that do not have them:
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://sandhelper.com/$1 [R=301,L]
-
-# Add www to any URLs that do not have them:
-RewriteCond %{HTTP_HOST} !^www\.
-RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.sandhelper.com/$1 [R=301,L]
