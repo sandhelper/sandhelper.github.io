@@ -445,6 +445,8 @@ body > main > div {
 .wistia_responsive_padding {
    padding: 56.25% 0 0 0;
    position: relative;
+   border-radius: 10px;
+   overflow: hidden;
 }
 
 .wistia_responsive_wrapper {
@@ -452,7 +454,7 @@ body > main > div {
    left: 0;
    position: absolute;
    top: 0;
-   width: 100%;
+   width: 100.07%;
 }
 
 .wistia_swatch {
