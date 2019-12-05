@@ -1,42 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://sandhelper.com</loc>
+    <loc>https://www.sandhelper.com</loc>
     <lastmod>2019-12-01T05:11:54+00:00</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://sandhelper.com/locations</loc>
+    <loc>https://www.sandhelper.com/locations</loc>
     <lastmod>2019-12-01T05:11:54+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://sandhelper.com/gallery</loc>
+    <loc>https://www.sandhelper.com/gallery</loc>
     <lastmod>2019-12-01T05:11:54+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://sandhelper.com/faq</loc>
+    <loc>https://www.sandhelper.com/faq</loc>
     <lastmod>2019-12-01T05:11:54+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://sandhelper.com/reviews</loc>
+    <loc>https://www.sandhelper.com/reviews</loc>
     <lastmod>2019-12-01T05:11:54+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://sandhelper.com/locations/ocean-city-md</loc>
+    <loc>https://www.sandhelper.com/locations/ocean-city-md</loc>
     <lastmod>2019-12-01T05:11:54+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://sandhelper.com/locations/miami-fl</loc>
+    <loc>https://www.sandhelper.com/locations/miami-fl</loc>
     <lastmod>2019-12-01T05:11:54+00:00</lastmod>
     <priority>0.64</priority>
   </url>
   <url>
-    <loc>https://sandhelper.com/locations/delray-fl</loc>
+    <loc>https://www.sandhelper.com/locations/delray-fl</loc>
     <lastmod>2019-12-01T05:11:54+00:00</lastmod>
     <priority>0.64</priority>
   </url>
