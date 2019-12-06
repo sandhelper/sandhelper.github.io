@@ -447,6 +447,8 @@ body > main > div {
    position: relative;
    border-radius: 10px;
    overflow: hidden;
+   /* Browser hack to hide overflow in certain browsers */
+   -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
 }
 
 .wistia_responsive_wrapper {
