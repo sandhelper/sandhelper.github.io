@@ -443,6 +443,7 @@ body > main > div {
 }
 
 .wistia_responsive_padding {
+   background: #424242;
    padding: 56.25% 0 0 0;
    position: relative;
    border-radius: 10px;
@@ -456,7 +457,7 @@ body > main > div {
    left: 0;
    position: absolute;
    top: 0;
-   width: 100.07%;
+   width: 100.25%;
 }
 
 .wistia_swatch {
