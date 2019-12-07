@@ -133,11 +133,11 @@ footer article.footer-section {
 }
 
 /* Custom tooltip widths */
-#tt1 {
-    width: 175px;
+#tt1, #tt2 {
+    width: 100px;
 }
 
-#tt2, #tt3 {
+#tt3 {
     width: 140px;
 }
 
