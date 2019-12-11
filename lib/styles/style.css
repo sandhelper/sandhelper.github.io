@@ -616,6 +616,7 @@ button.accordion-toggle-btn {
    /* center the word 'Menu' */
    #mobile-nav-menu-btn {
       text-align: center;
+      padding-top: 5px;
    }
 
    /* styling the SH icon in the responsive menu */
