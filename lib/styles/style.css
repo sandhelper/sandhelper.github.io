@@ -614,12 +614,12 @@ button.accordion-toggle-btn {
    }
 
    /* center the word 'Menu' */
-   body > section > ul > li:nth-of-type(6) {
+   #mobile-nav-menu-btn {
       text-align: center;
    }
 
    /* styling the SH icon in the responsive menu */
-   body > section > ul > li:nth-child(6) > img {
+   #mobile-nav-menu-btn > img {
       width: 33px;
       transform: translate(-20px, 5px);
    }
@@ -687,7 +687,7 @@ button.accordion-toggle-btn {
       font-size: 21px;
       visibility: visible;
       position: fixed;
-      top: -177px;
+      top: -207px;
       background: hsla(12, 95%, 47%, 0.93);
       color: white;
       margin: 0 0 0 0;
@@ -836,12 +836,12 @@ button.accordion-toggle-btn {
    }
 
    /* center the word 'Menu' */
-   body > section > ul > li:nth-of-type(6) {
+   #mobile-nav-menu-btn {
       text-align: center;
    }
 
    /* styling the SH icon in the responsive menu */
-   body > section > ul > li:nth-child(6) > img {
+   #mobile-nav-menu-btn > img {
       width: 33px;
       transform: translate(-20px, 5px);
    }
