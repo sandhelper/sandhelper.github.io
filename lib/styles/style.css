@@ -14,6 +14,10 @@ body {
    box-shadow: 0 0.3em 1em#000;
 }
 
+body.modalOpen {
+   overflow: hidden;
+}
+
 header {
    background-image: url(../images/headerBackground-top.jpg);
 }
@@ -476,6 +480,175 @@ body > main > div {
 /*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 button.accordion-toggle-btn {
    margin-right: 10px;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* custom reviews modal                                               */
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* Button styling */
+.custom-reviews-modal {
+   z-index: 9001;
+}
+
+a#custom-reviews-modal-btn {
+   border: none;
+   cursor: pointer;
+   outline: none;
+   position: fixed;
+   top: 40%;
+   color: white;
+}
+
+.custom-reviews-modal-right {
+   background: #EA3B16;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+   display: inline-block;
+   font-family: "Josefin Sans", monospace;
+   font-size: 17px;
+   font-weight: bold;
+   padding: 8px 16px;
+   right: 0px;
+   text-align: center;
+   text-decoration: none;
+   -webkit-transform-origin: 100% 100%;
+   -moz-transform-origin: 100% 100%;
+   -ms-transform-origin: 100% 100%;
+   -o-transform-origin: 100% 100%;
+   transform-origin: 100% 100%;
+   -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+   transform: rotate(-90deg);
+}
+
+/* Modal styling */
+.modal-dialog {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgba(0, 0, 0, 0.8);
+   z-index: 99999;
+   opacity: 0;
+   -webkit-transition: opacity 100ms ease-in;
+   -moz-transition: opacity 100ms ease-in;
+   transition: opacity 100ms ease-in;
+   pointer-events: none;
+}
+
+.modal-dialog:target {
+   opacity: 1;
+   pointer-events: auto;
+}
+
+.modal-content {
+   position: relative;
+   max-width: 70vw;
+   height: 70vh;
+   padding: 10px 0 15px 0;
+   border-radius: 10px;
+   background: #fff;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+}
+
+.modal-scroll {
+   overflow-y: auto;
+   height: 100%;
+}
+
+#modal-close-btn {
+   background: #606061;
+   color: #FFFFFF;
+   line-height: 25px;
+   position: absolute;
+   right: -12px;
+   text-align: center;
+   top: -10px;
+   width: 24px;
+   text-decoration: none;
+   font-weight: bold;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   border-radius: 12px;
+   -moz-box-shadow: 1px 1px 3px #000;
+   -webkit-box-shadow: 1px 1px 3px #000;
+   box-shadow: 1px 1px 3px #000;
+}
+
+#modal-close-btn:hover {
+   background: #EA3B16;
+}
+
+/* Review styling */
+.romw {
+   padding: 25px;
+}
+
+.romw p {
+   margin: 0;
+   padding: 0;
+}
+
+.romw .romw-source-logo {
+   float: right;
+}
+
+.romw .romw-source-logo img {
+   height: 25px;
+   margin: 0;
+}
+
+.romw .romw-author-photo {
+   float: left;
+   margin: 0 10px 0 0;
+}
+
+.romw .romw-author-photo img {
+   max-width: 60px;
+   object-fit: cover;
+   border-radius: 50%;
+   width: 60px;
+   height: 60px;
+   margin: 0;
+}
+
+.romw .romw-stars {
+   display: inline-block;
+   padding-left: 10px;
+}
+
+.romw .romw-author-stars {
+   margin-bottom: 5px;
+   margin-top: 0;
+   text-align: left;
+   font-size: 18px;
+   line-height: initial;
+   clear: initial;
+}
+
+.romw .romw-stars svg {
+   color: #ff5d48;
+   font-size: 18px;
+   width: 18px;
+   height: initial;
+}
+.romw-fa-star:before {
+   content: "☆";
+}
+
+.romw .romw-text {
+   clear: both;
+   padding-top: 15px;
+   text-align: left;
+   height: auto !important;
 }
 
 /*--------------------------------------------------------*/
