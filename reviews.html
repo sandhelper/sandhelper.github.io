@@ -134,10 +134,21 @@
          </article>
       </footer>
 
-      <div data-token="H2hdhzXaLbLzUaTQTkKr4ePoEx1kzjplcbVXqULvlV3ZEXpXM4" class="romw-reviews desktop-only"></div>
-      <script src="https://reviewsonmywebsite.com/js/embedLoader.js?id=16985fd9e429040ba7c6" type="text/javascript"></script>
+      <!-- Custom Reviews Modal -->
+      <div class="custom-reviews-modal desktop-only">
+         <a href="#reviews-modal" id="custom-reviews-modal-btn" class="custom-reviews-modal-right">Reviews</a>
+      </div>
+      <div id="reviews-modal" class="modal-dialog">
+         <div class="modal-content">
+            <a href="#close" title="Close" id="modal-close-btn">x</a>
+            <div id="reviews-container" class="modal-scroll">
+            </div>
+         </div>
+      </div>
 
       <script src="./lib/scripts/mobileNav.js"></script>
       <script src="./lib/scripts/googleAnalytics.js"></script>
+      <!-- Custom Reviews Modal Code -->
+      <script src="./lib/scripts/reviews.js"></script>
    </body>
 </html>

@@ -142,8 +142,17 @@
       </article>
   </footer>
 
-  <div data-token="H2hdhzXaLbLzUaTQTkKr4ePoEx1kzjplcbVXqULvlV3ZEXpXM4" class="romw-reviews desktop-only"></div>
-  <script src="https://reviewsonmywebsite.com/js/embedLoader.js?id=16985fd9e429040ba7c6" type="text/javascript"></script>
+  <!-- Custom Reviews Modal -->
+  <div class="custom-reviews-modal desktop-only">
+    <a href="#reviews-modal" id="custom-reviews-modal-btn" class="custom-reviews-modal-right">Reviews</a>
+  </div>
+  <div id="reviews-modal" class="modal-dialog">
+    <div class="modal-content">
+      <a href="#close" title="Close" id="modal-close-btn">x</a>
+      <div id="reviews-container" class="modal-scroll">
+      </div>
+    </div>
+  </div>
 
   <div visible='none'>
     <img alt="Map Style 1" id='style1'></img>
@@ -160,4 +169,6 @@
 <script src="./lib/scripts/googleAnalytics.js"></script>
 <!-- Important: this script must be down at the bottom; do not try to put it in the <head></head> because it just doesn't work consistently; TRUST ME! -->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA_HUjpB5w4F3bxGNMOcSct3H-PYSoBmc&callback=initMap"> </script>
+<!-- Custom Reviews Modal Code -->
+<script src="./lib/scripts/reviews.js"></script>
 </html>
