@@ -19,14 +19,12 @@ footer article.footer-section {
 /*-------------------------------------*/
 /* Left Badges Section                 */
 .footer-section.badges {
-    padding-left: 3em;
+    padding-left: 1em;
     align-items: center;
-    margin-top: -40px;
-    margin-bottom: -40px;
 }
 
 .badges > div {
-    margin: 10px;
+    margin: 5px;
 }
 
 .usa-badge {
@@ -34,38 +32,44 @@ footer article.footer-section {
     width: 121.875px;
     border-radius: 3px;
     box-shadow: 0.1em 0.1em 0.3em #000;
-    margin-left: -96px;
 }
 
-#google-badge {
-    margin-left: -125px;
+/* Custom review badges */
+.custom-reviews-badge {
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0.1em 0.1em 0.3em #000;
+    font-family: "Roboto", sans-serif;
+    font-size: 0.65rem;
+    width: 120px;
 }
 
-#facebook-badge {
-    margin-left: -195px;
+.custom-reviews-badge-logo-link-container {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
 }
 
-.reviews-badge {
-    /* scale entire widget to the same size as the USA Badge */
-    -webkit-transform: scale(0.35); /* Chrome, Opera 15+, Safari 3.1+ */
-    -moz-transform: scale(0.35); /* Firefox 3.5+ */
-    -ms-transform: scale(0.35); /* IE 9 */
-    -o-transform: scale(0.35); /* Opera 10.5+ */
-    transform: scale(0.35); /* Firefox 16+, IE 10+, Opera */
+.custom-reviews-badge-logo,
+.custom-reviews-badge-rating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Increase "Based on x reviews" text */
-.romw-badge-single__reviews {
-    font-size: 28px !important;
+.custom-reviews-badge-logo-icon {
+    height: 18px;
+    width: 18px;
 }
 
-.reviews-badge .romw-badge {
-    box-shadow: 0.175em 0.175em 0.5em #000;
-    border-radius: 6px;
+.custom-reviews-badge-logo-text,
+.custom-reviews-badge-stars {
+    padding-left: 5px;
 }
 
-.reviews-badge a {
-    border-radius: 6px !important;
+.custom-reviews-badge-stars {
+    color: #FF5D48;
 }
 
 /*-------------------------------------*/
@@ -186,7 +190,7 @@ footer article.footer-section {
     }
 }
 
-@media only screen and (max-width: 1040px) {
+@media only screen and (max-width: 1120px) {
     /* Left Badges + Right Credit Cards Section */
     .footer-section.badges,
     .footer-section.credit-cards {
@@ -194,27 +198,6 @@ footer article.footer-section {
         justify-content: center;
         width: 25%;
     }
-
-    .footer-section.badges {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
-
-    .footer-section.badges {
-        height: 230px;
-    }
-
-    #google-badge {
-        margin: -30px 0 -50px 0;
-    }
-
-     #facebook-badge {
-        margin: -75px 0;
-     }
-     
-     .usa-badge {
-        margin: 0;
-     }
 
     /* Center Socials/Copyright Section */
     .footer-section.central {
