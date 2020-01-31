@@ -228,7 +228,7 @@ body > main > div > img {
 #picketfence {
    clip-path: inset(8% 8% 0% 0%);
    -webkit-clip-path: inset(33% 15% 0% 0%);
-   transform: translate(-0px, -250px) scaleY(0.93);
+   transform: translate(-13px, -262px) scale(0.95);
 }
 
 #lounging {
