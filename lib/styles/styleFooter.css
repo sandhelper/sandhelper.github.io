@@ -149,8 +149,10 @@ footer article.footer-section {
     width: 195px;
 }
 
-#copyright {
+#copyright,
+#post-socials-text {
     padding: 17px 0;
+    text-align: center; 
 }
 
 /*-------------------------------------*/
@@ -221,7 +223,8 @@ footer article.footer-section {
         width: 80px;
     }
 
-    #copyright {
+    #copyright,
+    #post-socials-text {
         font-size: 14px;
         padding-top: 25px;
     }
