@@ -221,6 +221,11 @@ main > section.content {
    padding-top: 1em;
 }
 
+.p-y-m {
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
 .p-y-s {
    padding-top: 0.1em;
    padding-bottom: 0.1em;
@@ -338,6 +343,32 @@ body > main > div {
    margin-bottom: 5px;
    display: flex;
    font-size: 17px;
+}
+
+.flex-grid {
+   display: flex;
+}
+
+.col {
+   flex: 1;
+   margin: 0 30px;
+}
+
+.partner-logo {
+   width: 150px;
+   height: 150px;
+   margin: auto;
+}
+
+.partner-logo img {
+   width: 100%;
+   border-radius: 50%;
+   box-shadow: 0 0 10px #000000;
+   transition: box-shadow 0.15s ease-in-out;
+}
+.partner-logo img:hover {
+   box-shadow: 0 0 15px #000000;
+   transition: box-shadow 0.15s ease-in-out;
 }
 
 /* main about text section on homepage */
@@ -849,6 +880,10 @@ a#custom-reviews-modal-btn {
 
    a.mobile-only-link {
       pointer-events: auto;
+   }
+
+   .flex-grid {
+      display: block;
    }
 }
 
