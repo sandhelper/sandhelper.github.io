@@ -226,12 +226,12 @@ main > section.content {
    padding-bottom: 1em;
 }
 
-.p-y-s {
+.p-y-xs {
    padding-top: 0.1em;
    padding-bottom: 0.1em;
 }
 
-.m-y-s {
+.m-y-xs {
    margin-top: 0.1em;
    margin-bottom: 0.1em;
 }
