@@ -847,6 +847,7 @@ a#custom-reviews-modal-btn {
       cursor: pointer;
       text-align: center;
       padding-top: 5px;
+      font-size: 24px;
    }
 
    /* styling the SH icon in the responsive menu */
