@@ -975,6 +975,8 @@ a#custom-reviews-modal-btn {
 }
 
 /*------------------------------------*/
+/*     landscape                      */
+/*------------------------------------*/
 @media only screen and (max-height: 415px) {
    body > header {
       display: none;
@@ -985,7 +987,7 @@ a#custom-reviews-modal-btn {
    }
 
    #mobile-nav:not(.menu-expanded) {
-      top: -205px;
+      top: -215px;
    }
 
    /* top part should be lowered to expand the menu items */
