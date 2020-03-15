@@ -914,24 +914,9 @@ a#custom-reviews-modal-btn {
       display: none;
    }
 
-   /* the responsive menu that's always lurking */
    #mobile-nav {
-      display: block;
-      list-style: none;
-      font-family: "Karla";
       font-size: 21px;
-      visibility: visible;
-      position: fixed;
-      background: hsla(12, 95%, 47%, 0.93);
-      color: white;
-      margin: 0 0 0 0;
       padding: 0.1em 0.1em 0.1em 0.1em;
-      transition: 1s;
-      height: auto;
-      z-index: 9;
-      border-radius: 0.5em 0.5em 0.5em 0.5em;
-      box-shadow: 0.1em 0.1em 0.3em #000;
-      right: 5%;
       padding-top: 20px;
    }
 
@@ -995,87 +980,16 @@ a#custom-reviews-modal-btn {
    }
 
    #mobile-nav {
-      display: block;
-      list-style: none;
-      font-family: "Karla";
-      font-size: 20px;
-      visibility: visible;
-      position: fixed;
       width: 200px;
-      background: hsla(12, 95%, 47%, 0.93);
-      color: white;
-      margin: 0 0 0 0;
-      padding: 0.1em 0.1em 0.1em 0.1em;
-      transition: 1s;
-      height: auto;
-      z-index: 9;
-      border-radius: 0em 0em 0.5em 0.5em;
-      box-shadow: 0.1em 0.1em 0.3em #000;
-      right: 5%;
    }
 
    #mobile-nav:not(.menu-expanded) {
-      top: -95px;
+      top: -205px;
    }
 
    /* top part should be lowered to expand the menu items */
    #mobile-nav.menu-expanded {
-      top: -3px;
-   }
-
-   /* setting color of list items to match the color of the sand in the logo */
-   #mobile-nav > li {
-      padding: 2px;
-      margin: 2px;
-      visibility: visible;
-      color: rgb(250, 245, 198);
-   }
-
-   /* set the styling of the links in the dropdown menu */
-   #mobile-nav > li > a {
-      text-decoration: none;
-      color: rgb(250, 245, 198);
-      font-family: "Karla";
-      font-size: 19px;
-   }
-
-   /* link styling (for the dropdown menu) (line underneath link) */
-   #mobile-nav > li > a:before {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 2px;
-      bottom: 0;
-      left: 0;
-      background-color: rgb(250, 245, 198);
-      visibility: hidden;
-
-      -webkit-transition: all 0.5s ease-in-out 0s;
-      -moz-transition: all 0.5s ease-in-out 0s;
-      -o-transition: all 0.5s ease-in-out 0s;
-      transition: all 0.5s ease-in-out 0s;
-
-      -webkit-transform: scaleX(0);
-      -moz-transform: scaleX(0);
-      -o-transform: scaleX(0);
-      transform: scaleX(0);
-   }
-
-   /* set the styling of the links in the dropdown menu upon hover */
-   #mobile-nav > li > a:hover {
-      font-size: 19px;
-      color: rgb(250, 245, 198);
-   }
-
-   /* center the word 'Menu' */
-   #mobile-nav-menu-btn {
-      text-align: center;
-   }
-
-   /* styling the SH icon in the responsive menu */
-   #mobile-nav-menu-btn > img {
-      width: 33px;
-      transform: translate(-20px, 5px);
+      top: 0px;
    }
 
    body > main {
