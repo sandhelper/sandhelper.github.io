@@ -846,14 +846,14 @@ a#custom-reviews-modal-btn {
    #mobile-nav-menu-btn {
       cursor: pointer;
       text-align: center;
-      padding-top: 5px;
+      padding-top: 3px;
       font-size: 24px;
    }
 
    /* styling the SH icon in the responsive menu */
    #mobile-nav-menu-btn > img {
       width: 33px;
-      transform: translate(-20px, 5px);
+      transform: translate(-10px, 5px);
    }
    /*---------------------------------------------------*/
 
