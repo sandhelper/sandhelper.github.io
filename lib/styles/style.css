@@ -87,7 +87,7 @@ body > a > img:not(:hover) {
 }
 
 /* this is the responsive-list that comes into play when the vuport is tiny */
-body > section > ul {
+#mobile-nav {
    display: none;
 }
 
@@ -704,14 +704,41 @@ a#custom-reviews-modal-btn {
 /*--------------------------------------------------------*/
 /* make it responsive                                     */
 /*--------------------------------------------------------*/
-@media only screen and (max-width: 960px) {
-   body > header {
+@media only screen and (max-width: 1100px) {
+   body>header {
       background-position: top left;
    }
-   body > main {
+
+   body>main {
       padding-top: 120px;
    }
 
+   /* remove the first header image  */
+   body>header>section:nth-of-type(1)>figure:nth-of-type(1) img {
+      display: none;
+   }
+
+   /* resurrect the second section */
+   body>header>section:nth-of-type(2) {
+      margin: auto;
+      width: 100%;
+      border: 1px solid transparent;
+      display: block;
+   }
+
+   /* 2nd logo image styling -- size the 'short' logo image */
+   body>header>section:nth-of-type(2)>figure:nth-child(1) img {
+      width: 170px;
+      float: left;
+      height: auto;
+      display: block;
+      margin-top: -24px;
+      margin-left: auto;
+      margin-right: auto;
+   }
+}
+
+@media only screen and (max-width: 860px) {
    /*--------------------------------------------------------*/
    /* make header vertically smaller and set z-index         */
    /* to keep it in front of the drop down menu              */
@@ -726,41 +753,21 @@ a#custom-reviews-modal-btn {
       width: 0px;
    }
 
-   /* remove the first header image  */
-   body > header > section:nth-of-type(1) > figure:nth-of-type(1) img {
-      display: none;
-   }
-
-   /* resurrect the second section */
-   body > header > section:nth-of-type(2) {
-      margin: auto;
-      width: 100%;
-      border: 1px solid transparent;
-      display: block;
-   }
-
    /* 2nd logo image styling -- size the 'short' logo image */
-   body > header > section:nth-of-type(2) > figure:nth-child(1) img {
-      width: 170px;
-      float: left;
-      height: auto;
-      display: block;
+   body>header>section:nth-of-type(2)>figure:nth-child(1) img {
       margin-top: -127px;
-      margin-left: auto;
-      margin-right: auto;
    }
 
    /*---------------------------------------------------*/
    /* menu under the header                             */
    /*---------------------------------------------------*/
-   body > section > ul {
+   #mobile-nav {
       display: block;
       list-style: none;
       font-family: "Karla";
       font-size: 20px;
       visibility: visible;
       position: fixed;
-      top: -40px;
       background: hsla(12, 95%, 47%, 0.93);
       color: white;
       margin: 0 0 0 0;
@@ -773,18 +780,17 @@ a#custom-reviews-modal-btn {
       right: 5%;
    }
 
-   /* on hover, menu moves down to reveal list items */
-   body > section > ul:hover {
-      top: 110px;
+   #mobile-nav:not(.menu-expanded) {
+      top: -95px;
    }
 
-   /* on hover, menu moves down to reveal list items */
-   body > section > ul:active {
+   /* top part should be lowered to expand the menu items */
+   #mobile-nav.menu-expanded {
       top: 110px;
    }
 
    /* setting color of list items to match the color of the sand in the logo */
-   body > section > ul > li {
+   #mobile-nav > li {
       padding: 2px;
       margin: 2px;
       visibility: visible;
@@ -792,7 +798,7 @@ a#custom-reviews-modal-btn {
    }
 
    /* setting styling of wheelchair bullets in the menu */
-   body > section > ul > li > span {
+   #mobile-nav > li > span {
       padding: 2px;
       margin: 2px;
       margin-right: 10px;
@@ -801,7 +807,7 @@ a#custom-reviews-modal-btn {
    }
 
    /* set the styling of the links in the dropdown menu */
-   body > section > ul > li > a {
+   #mobile-nav > li > a {
       text-decoration: none;
       color: rgb(250, 245, 198);
       font-family: "Karla";
@@ -809,13 +815,13 @@ a#custom-reviews-modal-btn {
    }
 
    /* set the styling of the links in the dropdown menu upon hover */
-   body > section > ul > li > a:hover {
+   #mobile-nav > li > a:hover {
       font-size: 19px;
       color: rgb(250, 245, 198);
    }
 
    /* link styling (for the dropdown menu) (line underneath link) */
-   body > section > ul > li > a:before {
+   #mobile-nav > li > a:before {
       content: "";
       position: absolute;
       width: 100%;
@@ -908,14 +914,13 @@ a#custom-reviews-modal-btn {
    }
 
    /* the responsive menu that's always lurking */
-   body > section > ul {
+   #mobile-nav {
       display: block;
       list-style: none;
       font-family: "Karla";
       font-size: 21px;
       visibility: visible;
       position: fixed;
-      top: -241px;
       background: hsla(12, 95%, 47%, 0.93);
       color: white;
       margin: 0 0 0 0;
@@ -929,13 +934,12 @@ a#custom-reviews-modal-btn {
       padding-top: 20px;
    }
 
-   /* on hover, menu moves down to reveal list items */
-   body > section > ul:hover {
-      top: -15px;
+   #mobile-nav:not(.menu-expanded) {
+      top: -241px;
    }
 
-   /* on hover, menu moves down to reveal list items */
-   body > section > ul:active {
+   /* top part should be lowered to expand the menu items */
+   #mobile-nav.menu-expanded {
       top: -15px;
    }
 
@@ -989,14 +993,13 @@ a#custom-reviews-modal-btn {
       display: none;
    }
 
-   body > section > ul {
+   #mobile-nav {
       display: block;
       list-style: none;
       font-family: "Karla";
       font-size: 20px;
       visibility: visible;
       position: fixed;
-      top: -157px;
       width: 200px;
       background: hsla(12, 95%, 47%, 0.93);
       color: white;
@@ -1009,18 +1012,18 @@ a#custom-reviews-modal-btn {
       box-shadow: 0.1em 0.1em 0.3em #000;
       right: 5%;
    }
-   /* on hover, menu moves down to reveal list items */
-   body > section > ul:hover {
-      top: -3px;
+
+   #mobile-nav:not(.menu-expanded) {
+      top: -95px;
    }
 
-   /* on hover, menu moves down to reveal list items */
-   body > section > ul:active {
+   /* top part should be lowered to expand the menu items */
+   #mobile-nav.menu-expanded {
       top: -3px;
    }
 
    /* setting color of list items to match the color of the sand in the logo */
-   body > section > ul > li {
+   #mobile-nav > li {
       padding: 2px;
       margin: 2px;
       visibility: visible;
@@ -1028,7 +1031,7 @@ a#custom-reviews-modal-btn {
    }
 
    /* set the styling of the links in the dropdown menu */
-   body > section > ul > li > a {
+   #mobile-nav > li > a {
       text-decoration: none;
       color: rgb(250, 245, 198);
       font-family: "Karla";
@@ -1036,7 +1039,7 @@ a#custom-reviews-modal-btn {
    }
 
    /* link styling (for the dropdown menu) (line underneath link) */
-   body > section > ul > li > a:before {
+   #mobile-nav > li > a:before {
       content: "";
       position: absolute;
       width: 100%;
@@ -1058,7 +1061,7 @@ a#custom-reviews-modal-btn {
    }
 
    /* set the styling of the links in the dropdown menu upon hover */
-   body > section > ul > li > a:hover {
+   #mobile-nav > li > a:hover {
       font-size: 19px;
       color: rgb(250, 245, 198);
    }
