@@ -546,7 +546,7 @@ a#custom-reviews-modal-btn {
    outline: none;
    position: fixed;
    top: 40%;
-   color: white;
+   color: rgb(250, 245, 198);
 }
 
 .custom-reviews-modal-right {
