@@ -701,6 +701,32 @@ a#custom-reviews-modal-btn {
    height: auto !important;
 }
 
+/* Call Now Button */
+#call-now-container {
+   position: fixed;
+   right: 24px;
+   bottom: 16px;
+}
+
+#call-now-btn {
+   background: #EA3B16;
+   border: none;
+   border-radius: 50%;
+   box-shadow: 0.1em 0.1em 0.3em #000;
+   display: inline-block;
+   line-height: 56px;
+   height: 50px;
+   text-align: center;
+   vertical-align: middle;
+   width: 50px;
+   z-index: 1;
+}
+
+#call-now-btn-icon {
+   color: white;
+   font-size: 20px;
+}
+
 /*--------------------------------------------------------*/
 /* make it responsive                                     */
 /*--------------------------------------------------------*/
