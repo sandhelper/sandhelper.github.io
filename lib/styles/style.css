@@ -727,6 +727,10 @@ a#custom-reviews-modal-btn {
    font-size: 26px;
 }
 
+#mobile-nav.disable-links a {
+   pointer-events: none;
+}
+
 /*--------------------------------------------------------*/
 /* make it responsive                                     */
 /*--------------------------------------------------------*/
