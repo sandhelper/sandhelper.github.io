@@ -703,9 +703,10 @@ a#custom-reviews-modal-btn {
 
 /* Call Now Button */
 #call-now-container {
+   bottom: 16px;
    position: fixed;
    right: 24px;
-   bottom: 16px;
+   transition: opacity 0.2s ease-in-out;
 }
 
 #call-now-btn {
