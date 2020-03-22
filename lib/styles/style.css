@@ -709,8 +709,11 @@ a#custom-reviews-modal-btn {
 }
 
 #call-now-btn {
-   background: #EA3B16;
-   border: none;
+   background: #3E950F;
+   border: 2px solid white;
+   /* Previous orange button styling: */
+   /* background: #EA3B16; */
+   /* border: none; */
    border-radius: 50%;
    box-shadow: 0.1em 0.1em 0.3em #000;
    display: inline-block;
