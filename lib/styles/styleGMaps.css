@@ -97,6 +97,11 @@ body > main {
    outline: none;
 }
 
+#map .cluster > img {
+   width: 52px;
+   height: auto;
+}
+
 /* Position the number inside the circle */
 #map .cluster > div > span {
    line-height: 18px;
