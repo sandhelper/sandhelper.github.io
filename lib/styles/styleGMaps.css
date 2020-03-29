@@ -90,6 +90,19 @@ body > main {
    opacity: 1;
 }
 
+/* Cluster marker */
+#map .cluster > div > span {
+   display: flex;
+   justify-content: flex-end;
+   outline: none;
+}
+
+/* Position the number inside the circle */
+#map .cluster > div > span {
+   line-height: 18px;
+   padding-right: 7px;
+}
+
 .IWdiv {
    background-color: #f7efb7;
    border-radius: 5px;
